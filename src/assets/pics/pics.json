@@ -1,0 +1,32 @@
+{
+    "pics": [
+        {
+            "src": "clsp-first-years-kbbq.jpg",
+            "desc": "Some CLSP first years eating kbbq."
+        },
+        {
+            "src": "mark-zach-emnlp.jpg",
+            "desc": "Mark and Zach doubleteaming a poster session at EMNLP 2018."
+        },
+        {
+            "src": "emnlp-2018-entrance.jpg",
+            "desc": "Entrance to EMNLP 2018."
+        },
+        {
+            "src": "mdredze-group-brussels.jpg",
+            "desc": "Some of Mark's group at EMNLP 2018 standing in front of Manneken Piss."
+        },
+        {
+            "src": "sebastian-pondering-beach.jpg",
+            "desc": "Sebastian pondering the futility of Big Honking Neural Language Models."
+        },
+        {
+            "src": "johns-hopkins-campus-night.jpg",
+            "desc": "One of my first pictures of JHU."
+        },
+        {
+            "src": "moving-in-my-car.jpg",
+            "desc": "Austin to Baltimore with what I could fit in my car."
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #97AABD;
+    color: #314455;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+.footer-link {
+    padding: 10px;
+}
+
+.foot-a:link {
+    color: #314455;
+  }
+  
+  /* visited link */
+.foot-a:visited {
+    color: #314455;
+}
+  
+.foot-a:hover {
+    color: rgb(252, 238, 238);
+}
+  
+.foot-a:active {
+    color: black;
+}

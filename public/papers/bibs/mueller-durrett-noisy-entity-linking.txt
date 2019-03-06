@@ -1,0 +1,11 @@
+@InProceedings{D18-1126,
+  author = 	"Mueller, David
+		and Durrett, Greg",
+  title = 	"Effective Use of Context in Noisy Entity Linking",
+  booktitle = 	"Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"1024--1029",
+  location = 	"Brussels, Belgium",
+  url = 	"http://aclweb.org/anthology/D18-1126"
+}
