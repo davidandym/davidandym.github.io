@@ -1,6 +1,7 @@
 .Self-Block {
     padding: 10px;
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
     margin-left: 200px;
     margin-right: 200px;
     max-width: 100%;
@@ -11,6 +12,10 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+
+.welcome-text {
+    text-align: center;
 }
 
 .Intro {
@@ -40,12 +45,6 @@
 .face {
     flex-grow: 1;
     margin-top: 15px;
-}
-
-.face-text {
-    flex-grow: 1;
-    padding: 1px;
-    margin: 1px;
 }
 
 .text-a:link {

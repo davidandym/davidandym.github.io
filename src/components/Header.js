@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <div className="header">
             <div className="header-name">
-                David Mueller
+                <b>David Mueller</b>
             </div>
             <div className="header-links">
                 <div className="header-link">
