@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "96b335bccdb0da6fe539",
+    "revision": "1f8de99c3f019871b6df",
     "url": "/static/css/main.a8faaefb.chunk.css"
   },
   {
-    "revision": "96b335bccdb0da6fe539",
-    "url": "/static/js/main.96b335bc.chunk.js"
+    "revision": "1f8de99c3f019871b6df",
+    "url": "/static/js/main.1f8de99c.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/sebastian-pondering-beach.557d0a54.jpg"
   },
   {
-    "revision": "bf15173774b4b22f33e99ba42296d314",
+    "revision": "6a7630559d4c18af10d0dca54af86984",
     "url": "/index.html"
   }
 ];
