@@ -49,7 +49,8 @@ class News extends Component {
           News
         </h3>
         <ul>
-          <li>My life is boring, and there is nothing newsworthy occuring in it.</li>
+          <li>I'll be participating in <a href="https://hltcoe.jhu.edu/research/scale/scale-2019/" className="text-a">SCALE 2019</a> this summer! </li>
+          <li>This past October I attended EMNLP 2018 in Brussels, Belgium. It was my first NLP conference :)</li>
         </ul>
       </div>
     )
@@ -63,10 +64,10 @@ class Misc extends Component {
         <h3>A little about me...</h3>
         <p>Outside of research I have a few hobbies, including:
           <ul>
-            <li>practicing Brazilian Jiu-Jitsu</li>
-            <li>being a crappy powerlifter</li>
+            <li>practicing and competing in Brazilian Jiu-Jitsu</li>
+            <li>powerlifting</li>
             <li>learning Pink Floyd solos on guitar</li>
-            <li>making horrible attempts at latte art</li>
+            <li>attempting to perfect my latte art</li>
           </ul>
         </p>
       </div>
