@@ -28,7 +28,7 @@ class IntroText extends Component {
   render() {
     return (
       <div>
-        <p>I'm a first year Computer Science PhD student at Johns Hopkins University, affiliated with the <a href="https://www.clsp.jhu.edu/" className="text-a">Center for Langauge and Speech Processing.</a></p>
+        <p>I'm a first year Computer Science PhD student at Johns Hopkins University, affiliated with the <a href="https://www.clsp.jhu.edu/" className="text-a">Center for Language and Speech Processing.</a></p>
         <p>My research is focused on natural language processing methods which automatically extract structure from text, and applying that structure to applications and downstream tasks.
           I work with my advisor, <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a>, on multilingual methods for <a href="https://en.wikipedia.org/wiki/Information_extraction" className="text-a">information extraction</a> problems, such as named entity recognition.
         </p>
