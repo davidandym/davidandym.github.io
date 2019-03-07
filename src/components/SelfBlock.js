@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Image from 'react-bootstrap/Image';
 import face from '../assets/my-face.jpg'
 import '../css/self-block.css';
 
@@ -6,22 +7,68 @@ class SelfBlock extends Component {
   render() {
     return (
       <div className="Self-Block">
-        <div className="Intro">
+        <hr className="divider"/>
           <div className="face">
-            <img src={face} className="face-img"/>
+            <Image src={face} className="face-img" roundedCircle={true} />
           </div>
           <div className="face-text">
-          Every day is taco ipsum tuesday. Say taco one more time. Give me all your tacos. How do you feel about hard shelled tacos? Flour or corn tortillas? It’s a wonderful morning for breakfast tacos. Pico de gallo, on the side please. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. Ooh, with diced onions and a pinch of cilantro. Burritos are very tasty. It’s taco Tuesday Monday. Make it a double there pal. I think I’ve overdosed on tacos. Ooh, with diced onions and a pinch of cilantro.
+            <IntroText/>
           </div>
-        </div>
-        <div className="Subsequent-Text">
-          <div className="useless">
-            Side of rice and beans, please. It’s taco time all the time. 50 cent tacos! I’ll take 30. These tacos are lit 🔥. How do you feel about hard shelled tacos? Tacos dorados called flautas, or taquitos, for which the tortillas are filled with pre-cooked shredded chicken, beef or barbacoa, rolled into an elongated cylinder and deep-fried until crisp. If you were a taco, would you eat yourself? Um, Tabasco? No thanks, do you have any Cholula? It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business.
-          </div>
-          <div className="useless">
-            Black or pinto beans? Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins. Can you put some peppers and onions on that? Give me all your tacos. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. These tacos are lit 🔥
-          </div>
-        </div>
+          <hr className="divider"/>
+          <News/>
+          <hr className="divider"/>
+          <Misc/>
+          <hr className="divider"/>
+      </div>
+    )
+  }
+}
+
+class IntroText extends Component {
+  render() {
+    return (
+      <div>
+        <p>I'm a first year Computer Science PhD student at Johns Hopkins University, affiliated with the <a href="https://www.clsp.jhu.edu/" className="text-a">Center for Langauge and Speech Processing.</a></p>
+        <p>My research is focused on natural language processing methods which automatically extract structure from text, and applying that structure to applications and downstream tasks.
+          I work with my advisor, <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a>, on multilingual methods for <a href="https://en.wikipedia.org/wiki/Information_extraction" className="text-a">information extraction</a> problems, such as named entity recognition.
+        </p>
+        <p>
+          I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="" className="text-a">Greg Durrett</a> on methods for <a href="https://en.wikipedia.org/wiki/Entity_linking" className="text-a">entity linking</a> in noisy contexts.
+        </p>
+        <p>You can contact me at dam@jhu.edu.</p>
+      </div>
+    )
+  }
+}
+
+class News extends Component {
+  render() {
+    return (
+      <div>
+        <h3>
+          News
+        </h3>
+        <ul>
+          <li>My life is boring, and there is nothing newsworthy occuring in it.</li>
+        </ul>
+      </div>
+    )
+  }
+}
+
+class Misc extends Component {
+  render() {
+    return (
+      <div>
+        <h3>A little about me...</h3>
+        <p>Outside of research I have a few hobbies, including:
+          <ul>
+            <li>practicing Brazilian Jiu-Jitsu</li>
+            <li>being a crappy powerlifter</li>
+            <li>learning Pink Floyd solos on guitar</li>
+            <li>making horrible attempts at latte art</li>
+          </ul>
+        </p>
       </div>
     )
   }

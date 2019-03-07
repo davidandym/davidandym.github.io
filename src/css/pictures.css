@@ -6,25 +6,21 @@
 }
 
 .pics-intro {
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 .pics-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 10px;
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.pics-card {
-    background-color: #97AABD;
-    display: inline-block;
-    margin: 5px;
-    padding: 15px;
-    width: auto;
+.pics-a {
+    margin: 10px;
+    padding: 10px;
 }
 
 .pics-desc {
@@ -32,7 +28,8 @@
 }
 
 .pics-img {
-    max-width: 100%;
+    padding: 5px;
+    max-width: 20%;
     border-radius: 2%;
 }
 
@@ -41,4 +38,8 @@
       margin-left: 20px;
       margin-right: 20px;
   }
+
+    .pics-intro {
+        font-size: 2vw;
+    }
 }

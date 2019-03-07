@@ -7,13 +7,22 @@ class Pics extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            show_lightbox: true,
+            show_lightbox: false,
             cur_pic: 0
         }
 
         this.close_lightbox = this.close_lightbox.bind(this);
+        this.open_lightbox = this.open_lightbox.bind(this);
         this.next_img = this.next_img.bind(this);
         this.prev_img = this.prev_img.bind(this);
+    }
+
+    open_lightbox(index, event) {
+        event.preventDefault();
+        this.setState({
+            show_lightbox: true,
+            cur_pic: index
+        })
     }
 
     close_lightbox() {
@@ -29,13 +38,14 @@ class Pics extends Component {
     }
 
     render() {
-        var pic_gallery = pics.pics.map((value, _) => {
+        var pic_gallery = pics.pics.map((value, index) => {
             return (
-                <Picture
-                    key={value.src}
-                    img_src={value.src}
-                    desc={value.desc}
-                />
+                <a  className="pics-a"
+                    href={value.src}
+                    key={index}
+                    onClick={(e) => this.open_lightbox(index,e)}>
+                        <img className="pics-img" src={require("../assets/pics/" + value.src)}/>
+                </a>
             )
         });
 
@@ -58,19 +68,10 @@ class Pics extends Component {
                     onClickPrev={this.prev_img}
                     onClickNext={this.next_img}
                     onClose={this.close_lightbox}
+                    backdropClosesModal={true}
+                    preloadNextImage={true}
                 />
                 {pic_gallery}
-            </div>
-        )
-    }
-}
-
-class Picture extends Component {
-    render() {
-        return (
-            <div className={"pics-card"}>
-                <img className="pics-img" src={require("../assets/pics/" + this.props.img_src)}/>
-                <p className="pics-desc">{this.props.desc}</p>
             </div>
         )
     }

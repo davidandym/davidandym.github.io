@@ -15,7 +15,12 @@ class Publications extends Component {
                 />
             )
         });
-        return li
+
+        return (
+            <div className="pub-outer">
+              {li}
+            </div>
+        )
     }
 }
 
