@@ -7,12 +7,9 @@ class Header extends Component {
         return (
             <div className="header">
             <div className="header-name">
-                <b>David Mueller</b>
+                <Link className="head-a" to="/"><b>David Mueller</b></Link>
             </div>
             <div className="header-links">
-                <div className="header-link">
-                    <Link className="head-a" to="/">About</Link>
-                </div>
                 <div className="header-link">
                     <Link className="head-a" to="/publications">My One Publication</Link>
                 </div>
