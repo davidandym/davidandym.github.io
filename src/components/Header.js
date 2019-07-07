@@ -6,6 +6,7 @@ class Header extends Component {
     render() {
         return (
             <div className="header">
+			<div className="header-text">
             <div className="header-name">
                 <Link className="head-a" to="/"><b>David Mueller</b></Link>
             </div>
@@ -20,6 +21,7 @@ class Header extends Component {
                     <Link className="head-a" to="/pictures">Pics</Link>
                 </div>
             </div>
+			</div>
             </div>
         )
     }
