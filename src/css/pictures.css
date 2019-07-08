@@ -7,6 +7,14 @@
 
 .pics-intro {
     font-size: 1vw;
+	padding: 20px;
+}
+
+.divider {
+    background-color: #C96567;
+    border: 3px;
+    height: 1px;
+    width: 100%;
 }
 
 .pics-container {

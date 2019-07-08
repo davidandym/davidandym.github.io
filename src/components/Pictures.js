@@ -61,6 +61,7 @@ class Pics extends Component {
                 <div className="pics-intro">
                     Just some moments from my PhD life that seemed worth sharing.
                 </div>
+          		<hr className="divider"/>
                 <Lightbox
                     currentImage={this.state.cur_pic}
                     images={lightbox_pics}
