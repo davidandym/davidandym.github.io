@@ -10,7 +10,9 @@ class Publications extends Component {
                     title={value.title}
                     local_ref={value.local_ref}
                     authors={value.authors}
-                    link={value.anthology_link}
+                    anth_link={value.anthology_link}
+                    paper_link={value.paper_link}
+                    bib_link={value.bib_link}
                     conf={value.conference}
                 />
             )
@@ -29,14 +31,16 @@ class Publication extends Component {
         return (
             <div className="pub-item">
                 <div className="pub-title">
-                    <a className="pub-a" href="https://aclanthology.info/papers/D18-1126/d18-1126">{this.props.title}</a>
+                    <a className="pub-a" href={this.props.anth_link}>
+						{this.props.title}
+					</a>
                 </div>
                 <div className="pub-author-conf">
                         {this.props.authors}, {this.props.conf}
                 </div>
                 <div className="pub-links">
-                    <a className="pub-a" href="http://aclweb.org/anthology/D18-1126">pdf</a>
-                    <a className="pub-a" href="https://aclanthology.info/papers/D18-1126/d18-1126.bib">BibTex</a>
+                    <a className="pub-a" href={this.props.paper_link}>pdf</a>
+                    <a className="pub-a" href={this.props.bib_link}>BibTex</a>
                 </div>
             </div>
         )

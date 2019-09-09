@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="footer-link">
-                    <a className="foot-a" href="https://twitter.com/_dave_andy_m">
+                    <a className="foot-a" href="https://twitter.com/dam_nlp">
                         Twitter
                     </a>
                 </div>

@@ -5,7 +5,9 @@
             "authors": "David Mueller and Greg Durrett",
             "conference": "EMNLP 2018 (Short)",
             "local_ref": "mueller-durrett-noisy-entity-linking",
-            "anthology_link": "https://aclanthology.info/papers/D18-1126/d18-1126"
+            "anthology_link": "https://aclweb.org/anthology/D18-1126/",
+			"paper_link": "https://aclweb.org/anthology/D18-1126",
+			"bib_link": "https://aclweb.org/anthology/papers/D/D18/D18-1126.bib"
         }
     ]
 }
