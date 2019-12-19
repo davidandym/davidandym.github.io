@@ -44,14 +44,14 @@ class Pics extends Component {
                     href={value.src}
                     key={index}
                     onClick={(e) => this.open_lightbox(index,e)}>
-                        <img className="pics-img" src={require("../assets/pics/" + value.src)}/>
+				<img className="pics-img" src={value.src}/>
                 </a>
             )
         });
 
         var lightbox_pics = pics.pics.map((value, _) => {
             return {
-                src: require(`../assets/pics/${value.src}`),
+                src: value.src,
                 caption: value.desc
             }
         })

@@ -11,7 +11,7 @@ class SelfBlock extends Component {
         <h3 className="welcome-text">Welcome!</h3>
         <hr className="divider"/>
           <div className="face">
-            <Image src={face} className="face-img" roundedCircle={true} />
+            <Image src={face} className="face-img" roundedCircle={false} />
           </div>
           <IntroText/>
           <hr className="divider"/>
@@ -50,6 +50,7 @@ class News extends Component {
           News
         </h3>
         <ul>
+		  <li>I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
           <li>I'll be participating in <a href="https://hltcoe.jhu.edu/research/scale/scale-2019/" className="text-a">SCALE 2019</a> this summer! </li>
           <li>This past October I attended <a href="https://emnlp2018.org/" className="text-a">EMNLP 2018</a> in Brussels, Belgium. It was my first NLP conference :)</li>
         </ul>

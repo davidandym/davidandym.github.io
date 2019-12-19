@@ -1,47 +1,63 @@
 {
     "pics": [
+
         {
-            "src": "china-with-mitch-and-jeana.jpg",
+            "src": "https://lh3.googleusercontent.com/uMr_GJFoSO-9Bc0hpOsITjWMZT75zPE-Tajgx7xP3Yic4NeDQ9PEBmyQNbDsAqsnyUUDqJrjS7MGhPnjXoVeH2KWS1w28ClJxihNhrNp11fVHcSnh3zjjVTwfWmj2xmmJsuL0qMiBC8hOdeofHKhUYHL167qqYzBW3KfN013t2KlVOLtNThkI5q-Ytip4D5x1KH9AZ5uE-AXuTi2WIdQPDphLZvk3lTxyTt0UhLVSmW4YchweLpr1Y_WxSjb2w7eFncFvj4dCxLtvQy5j9x90Zabx33qxZmEYa045yIrTsqHDaoUV-FDH5o2nJJQUdINZH4ygND19ik0xwQ9I9pexDs_Yv3i62lhs0pghV_rv-Luz4M_yyMbLW8kNBWjcb-hSY9d1jRnChe8AYBf5yeI6NYXiLwMDDQyh_GA_KM3yQZ1Y9Yf2aXrsMuq_g8Jy1hZfIb7JDM9q4gD8TX8pW3nDDMddPBvUwHOduTM92rj2DSPyIlnLz1dzDc-vLXTSDy2HsS4PFXo4JCLcRApK1y9V-xrfTHJTPoaQnwzPukLOXqrmKyA9H-apUZMUvOhspXMGiQr4l6RafHDbTU8_isONZa4Hr8-BZULHnQhUzgFSnDY_5H7fd9X4iXHbhhs78xACzVHo9i4ht29H0CROae5HBg3krQV4U_yVHSXrDEbrthUHxD5ihbIqzZ8QYLzgccb3o-O-1g93ND-xrGNBNgCn12Kx6AJSwxrPCNrCEWcKw79VoWt=w1048-h1396-no",
+            "desc": "This happens way more often than it should in my lab..."
+        },
+
+        {
+            "src": "https://lh3.googleusercontent.com/ZPnEcwdkrtNimISyio6M4Cf1Ku62sIp7YGF-kYgg4gpkvOStrPMcVDHlWZpVHhGLt2sFDDLrQyn-ROlEjVwsjF-n5SejDCgnBWQpYoxrwMRlFzKgJAB_Maf00NxF6fz3C3LbbkA46dE9mhvfi8jKzBJA7YxyocPczsy3z1lobTkoeUd53b1W2b7zoleuJ1lPh7OdbB9eQgd6cXWu3iwxz8WRm8Q--E360--unFAFTDLyrSmu2chsGUkfWOirOTxoWmiEA-vJNLJ-p5OXIEoHg7wnG7wkNFOuWyEymPGSDqqIPj8uwcI1cnTGD4SG5pD2Y5H4fuFyk1a-IxV-uxfzUtkT2ZFWlT8lKxOc7v_WBT2xwUbTSQ8W2Shjka6znI1TOLGXMbhrb-RTwTnvO2-3RGOXb1mXC-55R2VOPju4wiQnH7UJvLcpE9B3RWyXUZTSwo090dP_JCm6bLxJEOCQG0CaiT2nbylUsUYT3DD154j3MmHiSRq521BNliAEUOCT_M7VihhlKaQEkNKe42yNTz6apCSoEPWBVmUpTuYdugI0yUIacF4vTmlzPtCJB5yI3qUO3kItMeVejHH0VCymqOHSxBsmL5TLB445Re061o9OBq2JEY8m0Pfz_9ME6CyVnE4sE527ZcUwbRO2-9bZcVrFrVF_C7jMQOsyUyPtIFpaWrXc5SVynZimql0r9pZ6zcF0pJ0JHY2IUC2MTD5LVpRuutlNxEZX3y5yUOq-SuKo_Wox=w1048-h1396-no",
+            "desc": "The risks of getting a new couch in your lab."
+        },
+        {
+            "src": "https://lh3.googleusercontent.com/O8tOZO9FoGYxaGALz-gkJmRd604VHhRwEbvqaOV2_3gJesGSqVUzbMzro5K2adEb3lBSAkrp91ofsQ4nkn4aWkxEQCpes9hKvZ6E4RVNv8pXGwCdNFVRhKYSFdEm72tneuXO4n1exyQlesBoRRlOj7IP4gzTplph9s6sPLCMeuUPm_jRTDaadcJeRtNRXR-Rj65m-Q5VxFpvyjrMK4JDEAJNjvwobD9kG5YpfrsSmPMi3x6_Iq7-OF0Mm5LLYBtwLLYCUGAMRuyBm21aLuSsZ-gYphugOZVQr5xafMFGCG7ElnxGarFUSHYyx76eD87ZnlCRmtNYRw3ymJW59m3QF4Ur8wWoARN_Gs-RETooSbbuYZlkPNhwT5d6eez-DpcRRjqAcuf0ZtvdeNWOSZvFFBECcZldRTdyRw0HdGCod2A71VI55vDe4_8cLE1TzWjYJhKYppjJfq-U-YBwxMtL8WfIIZU2QJffwJZTBJ65Cp9hFJkwTjWHWCD4pdwajr8kxUrzypG2MybWgLmIFfxi_iIhI5yzHbNrSQvWKazkKBRR-zcmtWBClnWKTR7yBgd-bKhPpkJj1ntPUghAB18pGRCkVH9-K7-Qxv1CykbdphwDsQ3pFNkuBIQVJG4EgOeA7uf0wy_chROCtCg8cG3ofkuJWVex8XzXk525X3UKS-mmxtMOsLRMEFW4FA0w6wEitqf_VUuyn7tyRLijXZtF22vxV9_vO_l5loGDjK0spBaVYxh1=w1862-h1396-no",
+            "desc": "The final stages of a wonderful trip :p"
+        },
+
+        {
+            "src": "https://lh3.googleusercontent.com/EGp1yJS6wcMotxjawYipTxmokeShNxRN5j552EBFaE5km9rjHRREUi3b3rlgptX3CP39YejpZNPBNPPhYQybdT3Q2xNhBOGxc1lg2l3__ZX69sdD6iovSiAt7PaNPELnrzxSJIRw7JvbLTJbNk5h0IRfoY7SxIlIceUTBNT9mvgLVInzB2VXISeYWSv2A2a8RFwJQYeohkcpB8MYXxTf7df-JKjbIH0YQQyBK-O0E_g3oQYlM4Is5_ndnEhWidnRDNIjhhSr74BNJwqR8BYOSjbrPeaTTD3OdwInE-wkgBJLG0qmiDrT56xKgd29YmQLTdSlrdFbgJiP0dzYAiOWmXKCrkeW9sf3SGkIqE8Dn5jAKEYqS53eK2ax_ufhuOh8tPp_EyY9CNNQDVabLrkE9u9aTcKiYpu1VEw9UipT4MN4alzpykcoH8n8qmiOU5vb0PCfhzCoYpGWzEAJv7ixKMSTnse764O8GB0l_pPUZum-T9s3TMsMAinwy7uX7bkHk21fiRAC-w4dNmrhfgaN0o1uMuB-uTWT-LWrUBZrIkG4ZAdqqUUyw_029-7Z0GHn1cExs90thkKjxmam0Xj8U2jYbd2yeSlyJBgXcwVK0QNtljGp4HCT-4P4pFzqusZ2zrc6b3_lt1soVIMYaq-CCrPl2VairRoQR87m5OFnzA8e4QR1bLwkvvYChZYUQXgCdclHSyewhkQsAtOAH1rxFWbXW-aEu2RV6DY41NDwCYislNSm=w1862-h1396-no",
             "desc": "Hiking in Zhaoqing with Mitchell and Jeana during our summer trip to SE Asia."
         },
         {
-            "src": "ho-chi-minh-with-kimurabjj.jpg",
+            "src": "https://lh3.googleusercontent.com/aMT5mO-NV92HxLC34SET6u9vmrmH2Xo8uCAAkc75xBRUiN9LH4oUvi5dQ5ZIOvvh5L8UMMYRY-TWeyaqw6OID0dMWh3oJv93PGWR8RWvSdBQlFpeArZiUQ6CFDtXNc8b53MJoQNPowbES1oYwyfGxVCUcfPQJ5mXxfoV29L2goPxeImJTjOgrZHoBa77UK4f1zVAKp4PoAS9JhfBk_dxnAevmgro1U2EwBbzJ9CALjB2687mmmZyb75bs9Xh6-r232lxRgaTxyh-xoY11YTb0rr3uXWUm21LeJfBAeFWvoLVUgcxiKZFK6RVIgXkqkctDqwApzfiFWquvCC8uB7Q82vtu5JA5EYT3rqWSOa8D9DyWE65LJdoraf2vSdo38LICSEqr9MM0uZZMRcfPHyBmdGtAbzFppLTP4Xpq-OE7RQrSMTm7tE-45fKHbJF8VekrfDcmFke2Icjoa4SS3y6kzcr8PEb7xcHR-i7ObhfvogqVWRmNdlsJFWNU0dzAgUtjqcoBUXiK-4nDFNqclAKv7ZRN2Ok4qCGHmzmyZyMIyWvXwXpyt4r73WgyQ7fFrjlIrdmk8-AxsKl-bGfeLocunuUzfhqjM8V_XXOzOOywiUmlHi125IsgC0u_ZnCB4teyswva-SeTulzW2zszsVl2AABgz-NWp79HtwSfYNXWi_v1biYhwItBPF-8nsEhVExuqb0hreN2zWFTccdsF5RWGgkM6TRkLTrgLdEApbEuOylMTpi=w477-h358-no",
+            "desc": "Police bikes in Guangzhou, China"
+        },
+
+        {
+            "src": "https://lh3.googleusercontent.com/Z0tivqE4WDbaQ9nOGXUsoesigZh2BJ9KfftndAFzFVOyrs1u9FjftGpntPYaqhdwDemWFeIdL-NPMHKzdEZqX1mRngXzrtiD0Vdt289ht7vLiID9qc_Wz6QvdREt4oboDteoQR2Z5GI=w1862-h1396-no",
             "desc": "Making friends through BJJ in Ho Chi Minh City, at Kimura BJJ."
         },
         {
-            "src": "hopkins-bjj-rashguards.jpeg",
+            "src": "https://lh3.googleusercontent.com/7juH-TCsoCPNkLYdzOLJuIIR9TJII9OGmEed4cQosIm9kM_jHH2vtJR7s7wZdA5OYlsnCT5-bz7OKggs1hebuaGJNYkz9j7O_UsK82ihRrPaqJKtdJPCQhbxl1IL7OqS7LFt3X5pCro=w1048-h1396-no",
+            "desc": "Great friends picking me up for new years eve, 201(8/9)"
+        },
+        {
+            "src": "https://lh3.googleusercontent.com/_PUa-Pe7fgKbx9Tas26C2jT7SvB7y5rOpiSTBCjTL20uKy72Ae4AaTx-hOCRSDGwxb9TrqZr7iuRLIZRbov859-nXfvm0rwlhgvFKcdxApA_IQdvyRRWSjqMAAYzmaz0l_Cez-tZU7s=w1334-h736-no",
             "desc": "When the Hopkins BJJ club got our own rashguards."
         },
         {
-            "src": "mdredze-group-dinner.jpg",
-            "desc": "My first group outing with Marks group. Mark couldn't make it because of an emergency."
-        },
-        {
-            "src": "clsp-first-years-kbbq.jpg",
+            "src": "https://lh3.googleusercontent.com/HlZTokVP5CeVcLq7HlnWB2cNVxqKXGgR8FixdOi5EpkJSAP74dCDOTL5zFKGBsCllIKklUY8qC4-0DJnLpMTuHsoaRclqt_5Ny_XFmUA7o7O5mbMk5A6P7MGUT-vhh8JYuPfB3jp6Qw=w1862-h1396-no",
             "desc": "Some CLSP first years eating kbbq."
         },
         {
-            "src": "mark-zach-emnlp.jpg",
+            "src": "https://lh3.googleusercontent.com/eA_QLUOaBt8a_3w40eoIRWrGOpZyQjJOr8N1dE8Qs1ZR0XK9p88cKVTjDfNBECr1wvqsNopjiiW1bZA174ZxsmRBMdbDbmKq1Vdb3JcQOYDXvgnXvxrpoDkBoqDlrzh2LMe78zke2xY=w1862-h1396-no",
             "desc": "Mark and Zach doubleteaming a poster session at EMNLP 2018."
         },
         {
-            "src": "emnlp-2018-entrance.jpg",
+            "src": "https://lh3.googleusercontent.com/tbIbeX2mwM0ko8Qbrri1JWSPVALT9CfGOc6FNNqWQ9tJ1PEH9N49xV_2lzJBSUwA0_QZh2Ul9l06u7zCFsr_tlgsSAKQMT7363dPAsL0a60PbBmmXHF9jL4aFOllxhNea-JTZ-jOkXU=w1862-h1396-no",
             "desc": "Entrance to EMNLP 2018."
         },
         {
-            "src": "mdredze-group-brussels.jpg",
-            "desc": "Some of Mark's group at EMNLP 2018 standing in front of Manneken Piss."
-        },
-        {
-            "src": "sebastian-pondering-beach.jpg",
+            "src": "https://lh3.googleusercontent.com/cjj0nDUjuxq6qGXlR7Oll-ZHae0u8ZnBwy3EDZGzEi7z86-GERNP8wKY9ZlkMIMR2ifNx63wX36W56r3qqCbz8SByPkzV2o3-p_cpJXKOkZoyAtNYUpJsaTonSYJJYpBYPHrgxBvmlo=w1862-h1396-no",
             "desc": "Sebastian pondering the futility of Big Honking Neural Language Models."
         },
         {
-            "src": "johns-hopkins-campus-night.jpg",
+            "src": "https://lh3.googleusercontent.com/mWAfqVnCwttQZ4-iJ05ekpC-pQaIBYaqRL8bySXQWqoOZPuMjpRlNat9ORShlxS9QA6H1c9iBucspj7zOcZfHAWKQIOx6MBETaWc17uzTcnOtICUjxEh9y2Zm2U-kWY-U63EwzrGTBw=w1862-h1396-no",
             "desc": "One of my first pictures of JHU."
         },
         {
-            "src": "moving-in-my-car.jpg",
+            "src": "https://lh3.googleusercontent.com/JJh7m8H_VmNelZGAnYxiQdxYidsLawkMNa-pw30g2uoKvZSJa2nKsZ9K0tAPjv-XDq20vKAhTjIlItTbJvgJGIQuobusxmohVj6_Wg6xtyfWXuqfVhXV_3BVm2cNhZIXXTqnhF9lgio=w1862-h1396-no",
             "desc": "Austin to Baltimore with what I could fit in my car."
         }
     ]

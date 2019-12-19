@@ -34,12 +34,12 @@
 }
 
 .face-img {
-    border-radius: 100%;
+    border-radius: 5%;
     display: block;
     max-width:20%;
     height: auto;
     margin: auto;
-    border:1.5px solid #C96567;
+    border:1.0px solid #C96567;
 }
 
 .face {

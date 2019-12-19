@@ -29,11 +29,10 @@ class RI2019 extends Component {
     return (
       <div className="text-text">
 		<h3> 2019 </h3>
-		<h4> Fall </h4>
 		<h4> Spring </h4>
 
 		<ul>
-		<li> Neural Network Pruning / LTH (due to my friend <a href="http://mitchgordon.me/about/" className="text-a">Mitch's</a> excitement about such things). </li>
+		<li> Neural Network Pruning / <a href="https://arxiv.org/abs/1803.03635" className="text-a">LTH</a> (due to my friend <a href="http://mitchgordon.me/about/" className="text-a">Mitch's</a> excitement about such things). </li>
 		<li> Multilingual models for anything, such as multilingual BERT (but still especially for information extraction), and why they were able to do well on
 			so many langauges at the same time (although, it turns out mBERT really doesn't do well on all that many languages).</li>
 		<li> Bertology (probing), and the effects of pruning BERT on both probing and finetuning performance. 
