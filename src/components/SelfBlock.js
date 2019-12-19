@@ -50,7 +50,7 @@ class News extends Component {
         <h3>
           News
         </h3>
-        <ul>
+        <ul className="list">
 		  <li>I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
           <li>I'll be participating in <a href="https://hltcoe.jhu.edu/research/scale/scale-2019/" className="text-a">SCALE 2019</a> this summer! </li>
           <li>This past October I attended <a href="https://emnlp2018.org/" className="text-a">EMNLP 2018</a> in Brussels, Belgium. It was my first NLP conference :)</li>
@@ -66,7 +66,7 @@ class Misc extends Component {
       <div className="text-text">
         <h3>A little about me...</h3>
         <p>Outside of research I have a few hobbies, including:</p>
-        <ul>
+        <ul className="list">
           <li>Training and competing in Brazilian Jiu-Jitsu at <a href="https://www.formjiujitsu.com/" className="text-a">Form</a> and the <a href="https://www.facebook.com/groups/2201204403" className="text-a">Johns Hopkins BJJ Club</a>.</li>
           <li>Improving my cooking skills, with a recent focus on vegetarian cuisine.</li>
           <li>Trying to improve my latte art game. You can view my progress <a href="https://photos.app.goo.gl/YHK7SrMobdsbG4k66" className="text-a">here</a>.</li>

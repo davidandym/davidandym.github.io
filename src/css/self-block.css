@@ -104,6 +104,14 @@
 .text-a:visited {
     color: #C96567;
 }
+
+.list {
+	margin: 10px;
+}
+
+li {
+	padding: 6px;
+}
   
 /* mouse over link */
 .text-a:hover {
