@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Publications from './components/Publications';
 import SelfBlock from './components/SelfBlock';
 import Pics from './components/Pictures';
+import Interests from './components/ResearchInterests';
 import Header from './components/Header';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
@@ -17,6 +18,7 @@ class App extends Component {
           <Route exact path="/" component={SelfBlock}/>
           <Route path="/publications" component={Publications}/>
           <Route path="/pictures" component={Pics}/>
+          <Route path="/research-interests" component={Interests}/>
         </div>
         <Footer/>
       </div>

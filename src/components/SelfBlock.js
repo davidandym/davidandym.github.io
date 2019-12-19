@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image';
 import face from '../assets/my-face.jpg'
 import '../css/self-block.css';
@@ -27,9 +28,10 @@ class IntroText extends Component {
   render() {
     return (
       <div className="text-text">
-        <p>I'm a first year Computer Science PhD student at Johns Hopkins University, affiliated with the <a href="https://www.clsp.jhu.edu/" className="text-a">Center for Language and Speech Processing.</a></p>
+        <p>I'm a second year Computer Science PhD student at Johns Hopkins University, affiliated with the <a href="https://www.clsp.jhu.edu/" className="text-a">Center for Language and Speech Processing.</a></p>
         <p>My research is focused on natural language processing methods which automatically extract structure from text, and applying that structure to applications and downstream tasks.
-          I work with my advisor, <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a>, on multilingual methods for <a href="https://en.wikipedia.org/wiki/Information_extraction" className="text-a">information extraction</a> problems.
+          I work with my advisor, <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a>, on multilingual methods for <a href="https://en.wikipedia.org/wiki/Information_extraction" className="text-a">information extraction</a> problems. You can read more about my research interests over time <Link className="text-a" to="/research-interests">here.</Link>
+		
         </p>
         <p>
           I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://en.wikipedia.org/wiki/Entity_linking" className="text-a">entity linking</a> in noisy contexts.

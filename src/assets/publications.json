@@ -6,8 +6,8 @@
             "conference": "EMNLP 2018 (Short)",
             "local_ref": "mueller-durrett-noisy-entity-linking",
             "anthology_link": "https://aclweb.org/anthology/D18-1126/",
-			"paper_link": "https://aclweb.org/anthology/D18-1126",
-			"bib_link": "https://aclweb.org/anthology/papers/D/D18/D18-1126.bib"
+			"paper_link": "https://aclweb.org/anthology/D18-1126.pdf",
+			"bib_link": "https://aclweb.org/anthology/papers/D18-1126.bib"
         }
     ]
 }
