@@ -35,16 +35,65 @@
 
 .face-img {
     border-radius: 5%;
-    display: block;
-    max-width:20%;
+    max-width:70%;
     height: auto;
-    margin: auto;
     border:1.0px solid #C96567;
 }
 
 .face {
+	flex-direction: row;
+	justify-content: center;
+	display: flex;
     flex-grow: 1;
     margin-top: 15px;
+}
+
+.biobox {
+	padding: 0px;
+}
+
+.biohead {
+	padding: 0px;
+}
+
+.face-split-img {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+	margin: auto;
+	flex-grow: 1;
+	width: 30%;
+	height: 20%;
+}
+
+.face-split-bio {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin: auto;
+	flex-grow: 1;
+	width: 70%;
+	height: 20%;
+}
+
+.biohead1 {
+	margin: 5px;
+	font-size: 3vw;
+}
+
+.biohead2{
+	margin: 5px;
+	font-size: 1.8vw;
+}
+
+.biotext {
+	margin: 5px;
+	font-size: 1.2vw;
+}
+
+.biotext1 {
+	margin: 5px;
+	font-size: 1.4vw;
 }
 
 .text-a:link {
@@ -77,12 +126,31 @@
 		font-size: 3vw;
     }
 
+	.biohead1 {
+		font-size: 4vw;
+	}
+	.biohead2{
+		font-size: 2.5vw;
+	}
+	.biotext {
+		font-size: 2vw;
+	}
+	.biotext1 {
+		font-size: 2vw;
+	}
+
+
     .face-text{
         max-width: 100%;
     }
 
+	.face-split-bio {
+		justify-content: left;
+	}
+
+
     .face-img{
-        max-width: 50%;
+        max-width: 80%;
     }
 }
 

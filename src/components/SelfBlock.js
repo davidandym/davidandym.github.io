@@ -8,10 +8,13 @@ class SelfBlock extends Component {
   render() {
     return (
       <div className="Self-Block">
-        <h3 className="welcome-text">Welcome!</h3>
-        <hr className="divider"/>
           <div className="face">
+			<div className="face-split-img">
             <Image src={face} className="face-img" roundedCircle={false} />
+			</div>
+			<div className="face-split-bio">
+				<BioShort/>
+			</div>
           </div>
           <IntroText/>
           <hr className="divider"/>
@@ -28,15 +31,13 @@ class IntroText extends Component {
   render() {
     return (
       <div className="text-text">
-        <p>I'm a second year Computer Science PhD student at Johns Hopkins University, affiliated with the <a href="https://www.clsp.jhu.edu/" className="text-a">Center for Language and Speech Processing.</a></p>
         <p>My research is focused on natural language processing methods which automatically extract structure from text, and applying that structure to applications and downstream tasks.
           I work with my advisor, <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a>, on multilingual methods for <a href="https://en.wikipedia.org/wiki/Information_extraction" className="text-a">information extraction</a> problems. You can read more about my research interests over time <Link className="text-a" to="/research-interests">here.</Link>
 		
         </p>
         <p>
-          I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://en.wikipedia.org/wiki/Entity_linking" className="text-a">entity linking</a> in noisy contexts.
+          Prior to attending JHU, I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://en.wikipedia.org/wiki/Entity_linking" className="text-a">entity linking</a> in noisy contexts.
         </p>
-        <p>You can contact me at dam@jhu.edu.</p>
       </div>
     )
   }
@@ -73,6 +74,22 @@ class Misc extends Component {
       </div>
     )
   }
+}
+
+class BioShort extends Component {
+	render() {
+		return (
+			<div className="biobox">
+				<p className="biohead2"> PhD Student </p>
+				<p className="biotext1"> Center for Language and Speech Processing </p>
+				<p className="biotext1"> Johns Hopkins University </p>
+				<p className="biotext"> 
+				<a href="https://twitter.com/dam_nlp" className="text-a">Twitter</a>, <a href="https://scholar.google.com/citations?user=TMv0Lw8AAAAJ&hl=en" className="text-a">Google Scholar</a>, <a href="https://www.semanticscholar.org/author/David-Mueller/143669098" className="text-a">Semantic Scholar</a>
+				</p>
+				<p className="biotext">Contact me at dam@jhu.edu</p>
+			</div>
+		)
+	}
 }
 
 export default SelfBlock;
