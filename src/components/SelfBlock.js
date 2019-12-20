@@ -48,7 +48,7 @@ class News extends Component {
     return (
       <div className="text-text">
         <h3>
-          News
+          What I'm Up To
         </h3>
         <ul className="list">
 		  <li>I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
@@ -80,6 +80,7 @@ class BioShort extends Component {
 	render() {
 		return (
 			<div className="biobox">
+				<p className="biohead1"> David Mueller</p>
 				<p className="biohead2"> PhD Student </p>
 				<p className="biotext1"> Center for Language and Speech Processing </p>
 				<p className="biotext1"> Johns Hopkins University </p>
