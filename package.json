@@ -2,7 +2,7 @@
   "name": "davidandym.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://davidandym.github.io",
+  "homepage": "https://damueller.com",
   "dependencies": {
     "babel": "^6.23.0",
     "bootstrap": "^4.3.1",
