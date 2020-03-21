@@ -28,17 +28,70 @@ class RI2019 extends Component {
   render() {
     return (
       <div className="text-text">
-		<h3> 2019 </h3>
-		<h4> Spring </h4>
+		<h2> 2019 </h2>
 
-		<ul>
-		<li> Neural Network Pruning / <a href="https://arxiv.org/abs/1803.03635" className="text-a">LTH</a> (due to my friend <a href="http://mitchgordon.me/about/" className="text-a">Mitch's</a> excitement about such things). </li>
-		<li> Multilingual models for anything, such as multilingual BERT (but still especially for information extraction), and why they were able to do well on
-			so many langauges at the same time (although, it turns out mBERT really doesn't do well on all that many languages).</li>
-		<li> Bertology (probing), and the effects of pruning BERT on both probing and finetuning performance. 
-			I was a bit skeptical of probing methods being used, and I wondered if pruning BERT to only the necessary parameters would change the
-			story of what "BERT learned".</li>
-		</ul>
+		<h3> Fall </h3>
+
+		<p>
+		<strong> TAing for machine learning! </strong> It's not really a research
+		interest, but it took up a lot of research time, haha. Still this was
+		an incredibly enriching experience, in which I learned a lot about writing
+		homeworks, tests, and preparing lectures. It also taught me how much
+		I love helping people understand things, and helped me to appreciate
+		some of the fantastic professors I had during my undergraduate career. 
+		Finally, it really
+		helped me to solidify my understanding of machine learning fundamentals.
+		</p>
+
+		<p>
+		<strong> Continuing my multilingual project. </strong> I continued being
+		interested in multilingual training as a sort of multitask learning,
+		but of the same task, and analyzing these models compared to 
+		monolingual models to see if we could find a way to explain their 
+		performance differences.
+		</p>
+
+		<p>
+		<strong>Neural tangent kernels, double descent </strong> and other 
+		fascinating findings that were challenging our notion of 
+		overparameterization and overfitting with neural networks. I didn't pick
+		up any projects regarding this, but I remained fascinated by the ongoing
+		research around this subject.
+		</p>
+
+		<h3> Spring </h3>
+
+		<p>
+		<strong> Neural Network Pruning and <a href="https://arxiv.org/abs/1803.03635" className="text-a">LTH</a>, </strong> 
+		mainly due to my friend <a href="http://mitchgordon.me/about/" className="text-a">Mitch's</a> excitement about it,
+		and the discussions we had around it.
+		I became very interested in the sparsity of neural networks, and how that impacted my understanding of deep learning.
+		</p>
+
+		<p>
+		<strong> Multilingual models, </strong> such as multilingual BERT. I found
+		it very interesting that sharing all parameters across all languages seemed
+		to work so well, and found the cross-lingual abilities of such models
+		fascinating. I spent some time working on a project which examined multilingual
+		models on a smaller scale, to try to tease apart patterns of where this paradigm worked
+		and didn't work well.
+		</p>
+
+		<p>
+		<strong> Bertology (probing), </strong> and the effects of pruning BERT 
+		on both probing and finetuning performance. 
+		I was a bit skeptical of the probing methods being used (usually just MLPs)
+		and I wondered if pruning BERT to only the necessary parameters would change the
+		story of what "BERT learned" to what BERT actually seemed to need.
+		</p>
+
+		<p>
+		<strong> Symbolic AI, and it's relevance today. </strong> I think this
+		came from my brief interest in grounding language models, which led to me 
+		reading The Symbol Grounding Problem, which then led me to realize that
+		I had a very limited understanding of classic AI research and philosophy,
+		so I spent some time reading and thinking about that.
+		</p>
 
       </div>
     )
@@ -49,36 +102,49 @@ class RI2018 extends Component {
   render() {
     return (
       <div className="text-text">
-		<h3> 2018 </h3>
-		<h4> Fall </h4>
-
-		<ul>
-		<li> Passing my classes, and learning as much as I could from Jason Eisner's NLP class.</li>
-		<li> Multilingual models for NER (my first project at JHU with my advisor) </li>
-		</ul>
+		<h2> 2018 </h2>
+		<h3> Fall </h3>
 
 		<p>
+		<strong> Starting my PhD! </strong>
 		I started my PhD at JHU this semester. I also attended my first NLP conference,
-		EMNLP 2018, this semester. My first project with Mark (my advisor) was to
+		EMNLP 2018, this semester. My research interests were still bouncing around
+		a lot, and I would become attached to anything that sounded cool for a couple 
+		weeks at a time, before dropping it for something else. Obviously, one thing that stuck
+		on my radar around this time was BERT and related analysis papers,
+		since it was becoming so predominant in the field.
+		</p>
+
+		<p>
+		<strong> Multilingual models, and their behaviors. </strong>
+		My first project with Mark (my advisor) was to
 		examine a particular multilingual model for NER and try to explain why it
 		was able to do so well in a multilingual setting, when most other models
 		fail to (this project ended up failing because I could never actually 
-			reimplement the model in question, and after 2 semesters of trying I gave up).
+			reimplement the model in question, and after 2 semesters of trying
+		we shifted to something else).
 		</p>
 
-		<h4> Spring </h4>
+		<h3> Spring </h3>
 
-		<ul>
-		<li> Information Extraction tasks surrounding entities, such as NER and EL.  </li>
-		<li> Basically anything I read that sounded cool, wherein my interest would fade a week or so later. </li>
-		</ul>
+		<p> 
+		<strong> Information Extraction tasks surrounding entities</strong>, such as NER and EL.
+		Predominantly, due to the fact that my project with Greg involved Entity Linking and so
+		I felt it was an area that I had a decent understanding of, so I was able to read
+		relevant papers more thoroughly.
+		</p>
+
+		<p>
+		<strong> Basically anything I read that sounded cool</strong>, wherein my interest would fade a week or so later. 
+		I really had no idea what I was really interested in, and would read papers
+		(like ELMo) without really understanding the overall impact it would eventually
+		have on the field.
+		</p>
 
 		<p> At this time, I had just finished applying to graduate schools, and
 		spent most of my time worrying about my future, and what I would do if
 		I didn't get into any schools.</p>
 
-		<p> ELMo had arrived by this time, but to be honest I had no notion of how much
-		of an impact pretrained language models would soon make. </p>
       </div>
     )
   }
@@ -88,14 +154,10 @@ class RI2017 extends Component {
   render() {
     return (
       <div className="text-text">
-		<h3> 2017 </h3>
-		<h4> Fall </h4>
+		<h2> 2017 </h2>
+		<h3> Fall </h3>
 
-		<ul>
-		<li> Understanding what NLP was.</li>
-		</ul>
-
-		<p>In Fall of 2017 I started taking a graduate course taught 
+		<p> <strong> Understanding what NLP was:</strong> In Fall of 2017 I started taking a graduate course taught 
 		by <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> at UT. At this time I was
 		working as a software developer in Austin. I knew I had an interest in AI, and possibly research, but I wasn't
 		sure how to start getting involved with the field. I had a lot of conversations with professors that

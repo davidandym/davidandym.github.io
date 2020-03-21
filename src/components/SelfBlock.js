@@ -32,7 +32,8 @@ class IntroText extends Component {
     return (
       <div className="text-text">
         <p>My research is focused on natural language processing methods which automatically extract structure from text, and applying that structure to applications and downstream tasks.
-          I work with my advisor, <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a>, on multilingual methods for <a href="https://en.wikipedia.org/wiki/Information_extraction" className="text-a">information extraction</a> problems. You can read more about my research interests over time <Link className="text-a" to="/research-interests">here.</Link>
+        I am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>. 
+		You can read more about my research interests over time <Link className="text-a" to="/research-interests">here.</Link>
 		
         </p>
         <p>
