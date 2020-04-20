@@ -39,8 +39,8 @@ class Publication extends Component {
                         {this.props.authors}, {this.props.conf}
                 </div>
                 <div className="pub-links">
-                    <a className="pub-a" href={this.props.paper_link}>pdf</a>
-                    <a className="pub-a" href={this.props.bib_link}>BibTex</a>
+                    <a className="pub-a" href={"/papers/pdfs/" + this.props.local_ref + ".pdf"}>PDF</a>
+                    <a className="pub-a" href={"/papers/bibs/" +  this.props.local_ref + ".txt"}>BibTex</a>
                 </div>
             </div>
         )
