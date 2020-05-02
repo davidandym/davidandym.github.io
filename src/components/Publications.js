@@ -40,7 +40,7 @@ class Publication extends Component {
 					</a>
                 </div>
                 <div className="pub-author-conf">
-                        {this.props.authors}, {this.props.conf}
+                        {this.props.authors}, &nbsp; <em>{this.props.conf}</em>
                 </div>
                 <div className="pub-links">
                     <a className="pub-a" href={"/papers/pdfs/" + this.props.local_ref + ".pdf"}>PDF</a>
