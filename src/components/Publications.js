@@ -14,13 +14,17 @@ class Publications extends Component {
                     paper_link={value.paper_link}
                     bib_link={value.bib_link}
                     conf={value.conference}
+                    code={value.code}
                 />
             )
         });
 
         return (
             <div className="pub-outer">
+			<h2>Conference Publications</h2>
               {li}
+        	<hr className="divider"/>
+			<h2>Notes</h2>
             </div>
         )
     }
@@ -41,6 +45,7 @@ class Publication extends Component {
                 <div className="pub-links">
                     <a className="pub-a" href={"/papers/pdfs/" + this.props.local_ref + ".pdf"}>PDF</a>
                     <a className="pub-a" href={"/papers/bibs/" +  this.props.local_ref + ".txt"}>BibTex</a>
+                    <a className="pub-a" href={this.props.code}>Code</a>
                 </div>
             </div>
         )

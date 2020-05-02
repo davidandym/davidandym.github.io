@@ -7,7 +7,15 @@
             "local_ref": "mueller-durrett-noisy-entity-linking",
             "anthology_link": "https://aclweb.org/anthology/D18-1126/",
 			"paper_link": "https://aclweb.org/anthology/D18-1126.pdf",
-			"bib_link": "https://aclweb.org/anthology/papers/D18-1126.bib"
-        }
+			"bib_link": "https://aclweb.org/anthology/papers/D18-1126.bib",
+			"code": "https://github.com/davidandym/wikilinks-ned"
+        },
+		{
+			"title": "Sources of Transfer in Multilingual NER",
+			"authors": "David Mueller, Nicholas Andrews, and Mark Dredze",
+			"conference": "ACL 2020",
+			"local_ref": "mueller-et-al-sources-of-transfer",
+			"code": "https://github.com/davidandym/multilingual-NER"
+		}
     ]
 }

@@ -12,13 +12,13 @@ class Header extends Component {
             </div>
             <div className="header-links">
                 <div className="header-link">
-                    <Link className="head-a" to="/publications">My One Publication</Link>
+                    <Link className="head-a" to="/publications">Publications</Link>
                 </div>
                 <div className="header-link">
                     <Link className="head-a" to="/blog">Blog</Link>
                 </div>
                 <div className="header-link">
-                    <Link className="head-a" to="/pictures">Pics</Link>
+                    <Link className="head-a" to="/pictures">Photos</Link>
                 </div>
             </div>
 			</div>
