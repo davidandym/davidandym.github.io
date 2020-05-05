@@ -1,13 +1,13 @@
 {
   "main.css": "/static/css/main.f20f6ae0.chunk.css",
-  "main.js": "/static/js/main.6df55e12.chunk.js",
-  "main.js.map": "/static/js/main.6df55e12.chunk.js.map",
+  "main.js": "/static/js/main.f4254471.chunk.js",
+  "main.js.map": "/static/js/main.f4254471.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
   "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
   "static/js/2.a9f37b5b.chunk.js": "/static/js/2.a9f37b5b.chunk.js",
   "static/js/2.a9f37b5b.chunk.js.map": "/static/js/2.a9f37b5b.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.7ec8cf647b9ae2236f79bbb4aee0a62d.js": "/precache-manifest.7ec8cf647b9ae2236f79bbb4aee0a62d.js",
+  "precache-manifest.c60b0cf622479454329393ae71bee0f7.js": "/precache-manifest.c60b0cf622479454329393ae71bee0f7.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.f20f6ae0.chunk.css.map": "/static/css/main.f20f6ae0.chunk.css.map",
   "static/media/my-face.jpg": "/static/media/my-face.d448f5a4.jpg"

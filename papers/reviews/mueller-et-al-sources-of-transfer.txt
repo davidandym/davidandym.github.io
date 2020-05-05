@@ -1,0 +1,180 @@
+============================================================================ 
+ACL 2020 Reviews for Submission #3254
+============================================================================ 
+
+Title: Sources of Transfer in Multilingual Named Entity Recognition
+Authors: David Mueller, Nicholas Andrews and Mark Dredze
+============================================================================
+                            META-REVIEW
+============================================================================ 
+
+Comments: This paper studies the sources of multilingual transfer in polyglot NER models and the weight structure of polyglot NER models during fine-tuning. The reviewers find the paper well-written with useful insights. However, they all agree that the novelty of the work is low and the analysis is superficial, especially as a long paper. Hence the recommendation is "Maybe Accept".
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+What is this paper about, what contributions does it make, what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+This paper addresses the problem of multilingual transfer in named-entity recognition. In theory, multilingual ("polyglot") models hold promise: 1) certain language pairs may have similar local syntactic or morphological structure around named-entities, 2) common entities might be directly re-used or transliterated across languages (e.g., Apple), 3) the regularizing effects of multi-task learning might be helpful for learning. In practice, however, polyglot model performance is rather disappointing---except, perhaps, in extreme low-resource settings. This paper presents some empirical results comparing performance of different common architectures, an empirical analysis of the transfer side of the problem, and finally a simple solution (fine-tuning of a polyglot model) that tends to do better than either pure multi-task or single-task learning.
+
+=== Strengths ===
+
+1) The paper is well-written and the discussion is clear.
+2) The problem is well-motivated: investigating areas of transfer in polyglot models is important, as despite the promise, multilingual performance is generally disappointing relative to monolingual performance where (even moderate amounts) of data is available.
+3) The fine-tuning solution is not surprising, but good to show empirically, and section 5 presents some useful analysis on parameter efficiency.
+
+=== Weaknesses ===
+
+1) The experimental methods can be improved. As we want to know how well polyglot models improve in general over languages, an analysis on the choice of languages and their structural/morphological differences and trends that arise would be more useful than average performance (over a limited choice of languages). Additionally, I would rather see the average performance over the 5 random seeds reported than the best one on dev to get an idea of optimization robustness. Significance tests for fine-tuned vs. monolingual are also in order, as the deltas are quite small for a number of the languages.  
+
+2) The introduction cites the example of "Apple" being a shared word among different languages as a named entity, and something multilingual models could potentially exploit. This claim isn't really given supporting evidence, however. What is the actual estimated occurrence rate of this phenomena in your dataset? I agree it is true in general, however the effects of transfer might be overshadowed if in practice the domains between the languages are different, or global companies such as Apple (which, overall, might be rare) aren't well represented in the sample.
+
+3) Do the models use any POS-tag or language id information as common for multi-lingual models (e.g., Ammar et al, 2016)? If so, this is not detailed in section 3. These features seem important to take advantage of structural similarities (especially if the vocabulary is divergent or completely disjoint). Using a language id also generally helps for other multilingual models; it would be important to know if the same arguments for parameter efficiency and sharing still hold when this sort of symmetry breaking feature is included.
+
+
+[1] Many Languages, One Parser. Waleed Ammar, George Mulcaire, Miguel Ballesteros, Chris Dyer, Noah A. Smith. 2016.
+
+
+=== Response ===
+
+"While an analysis of language selection would of course be valuable, it is broadly speaking orthogonal to the primary aim of this work, which is to develop methods that are able to exploit any combination of languages."
+
+In general I do not agree with this claim; in order to understand if the method is indeed able to exploit "any combination of languages" as you say, it is important to analyze whether the limited sample of languages (14 out of thousands) is likely to be a good measure of this generalization.
+
+"[...] our models do not use language-specific features or extra tag-sets because these require careful design [...]"
+
+Incorporating language ID (one-hot) is fairly standard practice for state-of-the-art multi-lingual/multi-task models and doesn't require careful design. Obviously these don't apply for zero-shot generalization, but you were not measuring that anyway.
+
+Overall: the paper is well written and contains some useful analysis, but is not that groundbreaking nor surprising. Drawing meaningful conclusions on such a broad problem is difficult; the experimental section could benefit from some stronger analysis.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+The paper presents a clear discussion of some of the effects of multilingual learning on parameter efficiency and other related model traits. Multilingual pre-training is also identified as being an effective starting point for fine-tuning on the target language.
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+The novelty in the paper is low, and the analysis is still fairly surface-level.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                  Overall Recommendation: 3.5
+
+Typos, Grammar, and Style
+---------------------------------------------------------------------------
+66: fewer parameters
+117: write out Byte-to-Span
+491: languageS
+557: fewer than
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+What is this paper about, what contributions does it make, what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+This paper addresses the question of how well does polyglot learning work for the problem setting of NER, including both an empirical study of existing architectures and a proposal for improving performance through an approach of fine tuning a polyglot model to a particular language. The paper implements several approaches, and then applies the proposed fine tuning to them (with one exception, which is not amenable to the approach) to examine the resulting performance. The paper then attempts some analysis of the polyglot models to try to make some sense of what might be going on.
+
+This is a fairly clearly presented work, the problem space is good as polyglot learning is gaining steam, and NER is a good typical task to look at. The fine-tuning approach is a reasonable place to start, as the paper's abstract says. However it does not actually advance our understanding very much to count the number of parameters that are shared, dropped, etc in neural network settings where these numbers run in the millions. I do not think the conclusions drawn about what the polyglot models are doing are actually well supported, and that kind of reasoning may be dangerous in thinking that we understand something we do not. The models themselves are opaque by definition. I do not think this negates the work, but I might ask the authors to consider their language in the paper a bit more carefully.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+As so many people are working on polyglot learning, it will be helpful to the community as a sanity check on how successful such models can really be on standard datasets
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+It does not seem to me that this paper moves the understanding of the field forward very much - the notion of fine tuning is, as the authors mention in the introduction, not new - but the particular problem setting the authors explore is.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                  Overall Recommendation: 3.5
+
+Questions for the Authors(s)
+---------------------------------------------------------------------------
+One question I have is why not consider augmenting the data that is fed to the polyglot model (and later the tuning stage), via cross lingual transfer of features, in order to further boost the model's benefit of seeing actually useful similarities across different languages via such shared features (especially semantic, rather than syntactic, features). The authors conclude in 4.2 that the models are in fact getting something out of looking at other languages, even for evaluation on a single language. However, at the end of section 5, they come to a somewhat opposite conclusion, that the models drop a significant chunk of the weights previously considered important, when going through the fine tuning phase.  So this seems like sharing information across languages is first helpful, and then harmful. This indicates to me a need to explore boosting the performance via better features in the original data, not just in the post-hoc retraining phase. And this may improve performa!
+ nce in the zero-shot case, if the unseen language had better quality features. The authors suggest in their conclusion that the standard training objectives are at fault. I would like to see a discussion instead about the available features in the data, and what limitations that may be putting on this problem setting.
+
+(Thank you for your responses during the rebuttal period)
+---------------------------------------------------------------------------
+
+
+Missing References
+---------------------------------------------------------------------------
+I suggest the authors look a little more at work on cross-lingual transfer, especially to low resource languages (one example is Akbik et al, EMNLP 2016, Towards Semi-Automatic Generation of Proposition Banks for Low-Resource Languages). I think there is more relevant work in this area than is covered so far that should be addressed.
+---------------------------------------------------------------------------
+
+
+Typos, Grammar, and Style
+---------------------------------------------------------------------------
+A couple minor typos in the paper
+
+-5.1 bottom of page 6 it's -> its
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+What is this paper about, what contributions does it make, what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+This paper presents an analysis of NER models, both monolingual and multilingual, with the aim of assessing why multilingual models have not surpassed monolingual ones despite having effectively many times more training data. The paper analyses this from several angles, and for several different model architectures, including looking at pretraining/finetuning to see capability of knowledge transfer, model compression to see about number of parameters, and information sharing (based on Fisher information.) The results in shows for finetuning the multilingual model for monolingual yields in most cases improvements over the monolingual baselines for several model architectures.
+
+The paper setup was clear, as was the experimental setup. The evaluations were easy to follow and the discussion insightful. With the ever increasing rend towards multilinguality, I think this paper has something for many people in the community, whether you are new to NER or not. With a promise to release the code for all the models, I think the community would also benefit from such a resource.
+
+The only negatives I have for the paper were that perhaps the discussion of the 4x parameter models a bit superficial. 
+
+I enjoyed reading this paper.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+The community would have greater awareness of the advantages and challenges of doing polyglot models.
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+The paper is mostly a discussion piece rather than presenting novel results.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                  Overall Recommendation: 4
+
+Typos, Grammar, and Style
+---------------------------------------------------------------------------
+- Overall well written and very few typos!
+- Line 489: language -> languages
+- Line 491: language -> languages
+---------------------------------------------------------------------------
+
+
+Additional Suggestions for the Author(s)
+---------------------------------------------------------------------------
+- Line 348:  What deep learning library wasn't available?
+- Line 349: The extra data not in conll wasn't available from the other authors?
+- Lines 483-485: Asks the question about how to maintain single general polyglot model while also enabling per-language customisation. It reminded me of the Zero-shot  MT paper by Google a few years ago, that uses input tags to represent the target language: Johnson, M., Schuster, M., Le, Q. V., Krikun, M., Wu, Y., Chen, Z., … & Hughes, M. (2017). Google’s multilingual neural machine translation system: Enabling zero-shot translation. *Transactions of the Association for Computational Linguistics*, *5*, 339-351.
+- Lines 526-527: The results in the table are 50/50, but the comment indicates otherwise. Please revisit and possibly revise.
+---------------------------------------------------------------------------
