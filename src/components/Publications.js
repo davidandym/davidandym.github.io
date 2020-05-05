@@ -15,6 +15,7 @@ class Publications extends Component {
                     conf={value.conference}
                     code={value.code}
 					arxiv={value.arxiv}
+					reviews={value.reviews}
 					poster={value.poster}
                 />
             )
@@ -46,6 +47,7 @@ class Publication extends Component {
                 <div className="pub-links">
 					<PubLink link={this.props.pdf} name={"Paper"}/>
 					<PubLink link={this.props.bib} name={"BibTeX"}/>
+					<PubLink link={this.props.reviews} name={"Reviews"}/>
 					<PubLink link={this.props.code} name={"Code"}/>
 					<PubLink link={this.props.arxiv} name={"arXiv"}/>
 					<PubLink link={this.props.poster} name={"Poster"}/>

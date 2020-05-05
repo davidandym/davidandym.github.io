@@ -37,7 +37,7 @@ class IntroText extends Component {
 		
         </p>
         <p>
-          Prior to attending JHU, I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://en.wikipedia.org/wiki/Entity_linking" className="text-a">entity linking</a> in noisy contexts.
+          Prior to attending JHU, I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://www.aclweb.org/anthology/D18-1126/" className="text-a">entity linking</a> in noisy contexts.
         </p>
       </div>
     )

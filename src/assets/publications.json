@@ -5,6 +5,7 @@
 			"authors": "David Mueller, Nicholas Andrews, and Mark Dredze",
 			"conference": "ACL 2020",
 			"pdf": "/papers/pdfs/mueller-et-al-sources-of-transfer.pdf",
+			"reviews": "/papers/reviews/mueller-et-al-sources-of-transfer.txt",
 			"code": "https://github.com/davidandym/multilingual-NER",
 			"arxiv": "https://arxiv.org/abs/2005.00847"
 		},
