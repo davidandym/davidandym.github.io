@@ -152,4 +152,18 @@ li {
 	.Self-Block{
 		font-size: 20px;
 	}
+
+	.biohead1 {
+		font-size: 40px;
+	}
+	.biohead2{
+		font-size: 25px;
+	}
+	.biotext {
+		font-size: 20px;
+	}
+	.biotext1 {
+		font-size: 20px;
+	}
+
 }

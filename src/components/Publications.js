@@ -8,13 +8,14 @@ class Publications extends Component {
             return (
                 <Publication
                     title={value.title}
-                    local_ref={value.local_ref}
                     authors={value.authors}
                     anth_link={value.anthology_link}
-                    paper_link={value.paper_link}
-                    bib_link={value.bib_link}
+                    pdf={value.pdf}
+                    bib={value.bib}
                     conf={value.conference}
                     code={value.code}
+					arxiv={value.arxiv}
+					poster={value.poster}
                 />
             )
         });
@@ -43,13 +44,26 @@ class Publication extends Component {
                         {this.props.authors}, &nbsp; <em>{this.props.conf}</em>
                 </div>
                 <div className="pub-links">
-                    <a className="pub-a" href={"/papers/pdfs/" + this.props.local_ref + ".pdf"}>PDF</a>
-                    <a className="pub-a" href={"/papers/bibs/" +  this.props.local_ref + ".txt"}>BibTex</a>
-                    <a className="pub-a" href={this.props.code}>Code</a>
+					<PubLink link={this.props.pdf} name={"Paper"}/>
+					<PubLink link={this.props.bib} name={"BibTeX"}/>
+					<PubLink link={this.props.code} name={"Code"}/>
+					<PubLink link={this.props.arxiv} name={"arXiv"}/>
+					<PubLink link={this.props.poster} name={"Poster"}/>
                 </div>
             </div>
         )
     }
+}
+
+class PubLink extends Component {
+	render() {
+		if (this.props.link == null) {
+			return <a/>
+		}
+		return (
+        	<a className="pub-a" href={this.props.link}>{this.props.name}</a>
+		)
+	}
 }
 
 export default Publications;

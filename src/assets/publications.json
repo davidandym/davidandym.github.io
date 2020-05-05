@@ -4,17 +4,18 @@
 			"title": "Sources of Transfer in Multilingual NER",
 			"authors": "David Mueller, Nicholas Andrews, and Mark Dredze",
 			"conference": "ACL 2020",
-			"local_ref": "mueller-et-al-sources-of-transfer",
-			"code": "https://github.com/davidandym/multilingual-NER"
+			"pdf": "/papers/pdfs/mueller-et-al-sources-of-transfer.pdf",
+			"code": "https://github.com/davidandym/multilingual-NER",
+			"arxiv": "https://arxiv.org/abs/2005.00847"
 		},
         {
             "title": "Effective Use of Context in Noisy Entity Linking",
             "authors": "David Mueller and Greg Durrett",
             "conference": "EMNLP 2018 (Short)",
-            "local_ref": "mueller-durrett-noisy-entity-linking",
+            "poster": "/papers/posters/mueller-durrett-noisy-entity-linking.pdf",
+            "pdf": "/papers/pdfs/mueller-durrett-noisy-entity-linking.pdf",
+            "bib": "/papers/bibs/mueller-durrett-noisy-entity-linking.txt",
             "anthology_link": "https://aclweb.org/anthology/D18-1126/",
-			"paper_link": "https://aclweb.org/anthology/D18-1126.pdf",
-			"bib_link": "https://aclweb.org/anthology/papers/D18-1126.bib",
 			"code": "https://github.com/davidandym/wikilinks-ned"
         }
     ]
