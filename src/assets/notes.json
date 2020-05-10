@@ -1,0 +1,10 @@
+{
+    "notes": [
+		{
+			"title": "Non-Linear Optimization",
+			"latex": "https://github.com/davidandym/optimization-notes",
+			"source": "http://www.ams.jhu.edu/~fishkind/553_762.html",
+            "pdf": "/notes/optimization_notes.pdf"
+		}
+    ]
+}

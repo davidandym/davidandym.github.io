@@ -1,5 +1,6 @@
 import React, { Component, Text } from 'react';
 import publications from './../assets/publications.json';
+import notes from './../assets/notes.json';
 import "../css/publications.css"
 
 class Publications extends Component {
@@ -21,12 +22,25 @@ class Publications extends Component {
             )
         });
 
+        var li2 = notes.notes.map((value, _) => {
+            return (
+                <Note
+                    title={value.title}
+                    pdf={value.pdf}
+                    latex={value.latex}
+					source={value.source}
+                />
+            )
+        });
+
+
         return (
             <div className="pub-outer">
 			<h2>Conference Publications</h2>
               {li}
         	<hr className="divider"/>
 			<h2>Notes</h2>
+              {li2}
             </div>
         )
     }
@@ -56,6 +70,26 @@ class Publication extends Component {
         )
     }
 }
+
+
+class Note extends Component {
+    render() {
+        return (
+            <div className="pub-item">
+                <div className="pub-title">
+                    <a className="pub-a" href={this.props.pdf}>
+						{this.props.title}
+					</a>
+                </div>
+                <div className="pub-links">
+					<PubLink link={this.props.latex} name={"Latex"}/>
+					<PubLink link={this.props.source} name={"Source"}/>
+                </div>
+            </div>
+        )
+    }
+}
+
 
 class PubLink extends Component {
 	render() {
