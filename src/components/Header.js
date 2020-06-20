@@ -20,6 +20,15 @@ class Header extends Component {
                 <div className="header-link">
                     <Link className="head-a" to="/pictures">Photos</Link>
                 </div>
+                <div className="header-link">
+                    <a className="fa fa-twitter fa-head" href="https://twitter.com/dam_nlp">
+                    </a>
+                </div>
+                <div className="header-link">
+                    <a className="fa fa-github fa-head" href="https://github.com/davidandym">
+                    </a>
+                </div>
+
             </div>
 			</div>
             </div>

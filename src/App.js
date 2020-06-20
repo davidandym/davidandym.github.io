@@ -6,6 +6,8 @@ import Interests from './components/ResearchInterests';
 import Header from './components/Header';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
+import './css/academic-icons/css/academicons.min.css';
+import './css/font-awesome/css/font-awesome.min.css';
 import Footer from './components/Footer';
 
 class App extends Component {

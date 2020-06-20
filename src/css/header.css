@@ -1,6 +1,6 @@
 .header {
   background-color: #C96567;
-  min-height: 5vh;
+  min-height: 3vh;
   padding: 7px;
   color: #314455;
 }
@@ -60,6 +60,31 @@
 .head-a:active {
   color: black;
 }
+
+
+.fa-head {
+  color: #314455;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-head:visited {
+  	text-align: center;
+  	text-decoration: none;
+  	color: #314455;
+}
+
+.fa-head:hover {
+  	color: rgb(252, 238, 238);
+}
+
+.fa-head:active {
+  color: black;
+}
+
+
+
+
 
 @media all and (max-width: 900px) {
   .header{

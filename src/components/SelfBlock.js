@@ -31,7 +31,9 @@ class IntroText extends Component {
   render() {
     return (
       <div className="text-text">
-        <p>My research is focused on natural language processing methods which automatically extract structure from text, and applying that structure to applications and downstream tasks.
+        <p>Hi! I'm a second year PhD student at Johns Hopkins University, working
+		at the <a href="clsp.jhu.ed" className="text-a">Center for Language and Speech Processing</a>.
+		My research is focused on natural language processing methods which automatically extract structure from text, and applying that structure to applications and downstream tasks.
         I am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>. 
 		You can read more about my research interests over time <Link className="text-a" to="/research-interests">here.</Link>
 		
@@ -85,10 +87,10 @@ class BioShort extends Component {
 				<p className="biohead2"> PhD Student </p>
 				<p className="biotext1"> Center for Language and Speech Processing </p>
 				<p className="biotext1"> Johns Hopkins University </p>
+				<p className="biotext">dam@jhu.edu</p>
 				<p className="biotext"> 
-				<a href="https://twitter.com/dam_nlp" className="text-a">Twitter</a>, <a href="https://scholar.google.com/citations?user=TMv0Lw8AAAAJ&hl=en" className="text-a">Google Scholar</a>, <a href="https://www.semanticscholar.org/author/David-Mueller/143669098" className="text-a">Semantic Scholar</a>
+				<a href="https://twitter.com/dam_nlp" className="fa fa-twitter"></a>  &nbsp;  <a href="https://github.com/davidandym" className="fa fa-github"></a>  &nbsp; <a href="https://scholar.google.com/citations?user=TMv0Lw8AAAAJ&hl=en" className="ai ai-google-scholar"></a> &nbsp; <a href="https://www.semanticscholar.org/author/David-Mueller/143669098" className="ai ai-semantic-scholar"></a>
 				</p>
-				<p className="biotext">Contact me at dam@jhu.edu</p>
 			</div>
 		)
 	}
