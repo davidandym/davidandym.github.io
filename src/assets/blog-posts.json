@@ -2,7 +2,7 @@
     "posts": [
 		{
 			"title": "Sampling (Exactly) From a CRF",
-			"ref": "test"
+			"ref": "crf_sampling"
 		}
     ]
 }

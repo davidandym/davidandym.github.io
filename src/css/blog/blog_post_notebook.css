@@ -44,6 +44,11 @@
 }
 
 
+.Notebook table {
+	margin: auto;
+	padding: .5rem;
+}
+
 .Notebook td {
 	padding: .5rem;
 }
