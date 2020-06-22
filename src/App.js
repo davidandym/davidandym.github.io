@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Publications from './components/Publications';
 import SelfBlock from './components/SelfBlock';
+import Blog from './components/blog/Blog';
+import BlogLanding from './components/blog/BlogLanding';
 import Pics from './components/Pictures';
 import Interests from './components/ResearchInterests';
 import Header from './components/Header';
@@ -21,6 +23,8 @@ class App extends Component {
           <Route path="/publications" component={Publications}/>
           <Route path="/pictures" component={Pics}/>
           <Route path="/research-interests" component={Interests}/>
+          <Route path="/blog" component={BlogLanding}/>
+          <Route path="/blog-post/:postname" component={Blog}/>
         </div>
         <Footer/>
       </div>

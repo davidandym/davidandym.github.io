@@ -7,7 +7,7 @@
     max-width: 940px;
     display: flex;
     flex-wrap: wrap;
-    text-align: left;
+    text-align: justify;
     font-size: 1.5vw;
     flex-direction: column;
     justify-content: center;
