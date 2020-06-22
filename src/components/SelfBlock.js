@@ -70,9 +70,10 @@ class Misc extends Component {
         <h3>A little about me...</h3>
         <p>Outside of research I have a few hobbies, including:</p>
         <ul className="list">
-          <li>Training and competing in Brazilian Jiu-Jitsu at <a href="https://www.formjiujitsu.com/" className="text-a">Form</a> and the <a href="https://www.facebook.com/groups/2201204403" className="text-a">Johns Hopkins BJJ Club</a>.</li>
+          <li>Training and competing in Brazilian Jiu-Jitsu at <a href="https://www.formjiujitsu.com/" className="text-a">Form Jiu-Jitsu</a>.</li>
           <li>Improving my cooking skills, with a recent focus on vegetarian cuisine.</li>
           <li>Trying to improve my latte art game. You can view my progress <a href="https://photos.app.goo.gl/YHK7SrMobdsbG4k66" className="text-a">here</a>.</li>
+          <li>I'm an avid fantasy and sci-fi reader, currently obsessed with <a href="http://www.robinhobb.com/index.htm" className="text-a">Robin Hobb</a>, and her Farseer series.</li>
         </ul>
       </div>
     )
