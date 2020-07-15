@@ -12,6 +12,9 @@ class Header extends Component {
             </div>
             <div className="header-links">
                 <div className="header-link">
+                    <a className="head-a" href="/papers/cv.pdf">CV</a>
+                </div>
+                <div className="header-link">
                     <Link className="head-a" to="/publications">Publications</Link>
                 </div>
                 <div className="header-link">

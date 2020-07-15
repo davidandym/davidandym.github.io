@@ -72,7 +72,9 @@ class Pics extends Component {
                     backdropClosesModal={true}
                     preloadNextImage={true}
                 />
+				<div className="pics-gallery">
                 {pic_gallery}
+				</div>
             </div>
         )
     }
