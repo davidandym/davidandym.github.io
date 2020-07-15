@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6e65a20ee58bcbdf9486",
-    "url": "/static/css/main.42026511.chunk.css"
+    "revision": "df174df1afe7cb2873a9",
+    "url": "/static/css/main.95ec4b36.chunk.css"
   },
   {
-    "revision": "6e65a20ee58bcbdf9486",
-    "url": "/static/js/main.6e65a20e.chunk.js"
+    "revision": "df174df1afe7cb2873a9",
+    "url": "/static/js/main.df174df1.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -24,10 +24,6 @@ self.__precacheManifest = [
     "url": "/static/media/crf_sampling.24b33010.ipynb"
   },
   {
-    "revision": "1afcbd6a1c454e7b7f0bc58155558b9d",
-    "url": "/static/media/academicons.1afcbd6a.ttf"
-  },
-  {
     "revision": "ea3755c311d0678ca4f041912a9039d6",
     "url": "/static/media/academicons.ea3755c3.eot"
   },
@@ -36,16 +32,20 @@ self.__precacheManifest = [
     "url": "/static/media/academicons.2552b354.woff"
   },
   {
+    "revision": "1afcbd6a1c454e7b7f0bc58155558b9d",
+    "url": "/static/media/academicons.1afcbd6a.ttf"
+  },
+  {
     "revision": "406b38d29cffe8ffcb7962faa2e095ef",
     "url": "/static/media/academicons.406b38d2.svg"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "416f13fcd0ff8d7279491c656f955f50",
+    "revision": "ef396e3608bad6f4c466b80eb0a83a05",
     "url": "/index.html"
   }
 ];
