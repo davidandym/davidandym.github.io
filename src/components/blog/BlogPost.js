@@ -56,6 +56,10 @@ function MarkdownRender(props) {
       );
 }
 
+function Image(props) {
+  return <img {...props} style={{maxWidth: '90%'}} />
+}
+
 function parse_cell(cell) {
     let language = "python"
    
@@ -69,7 +73,7 @@ function parse_cell(cell) {
         case "markdown":
         
               return (
-                <MarkdownRender source={cell.source.join("")}/>
+                <MarkdownRender source={cell.source.join("")} renderers={{image: Image}}/>
               );
         case "code":
             return (

@@ -31,12 +31,13 @@ class IntroText extends Component {
   render() {
     return (
       <div className="text-text">
-        <p>Hi! I'm a second year PhD student at Johns Hopkins University, working
-		at the <a href="clsp.jhu.ed" className="text-a">Center for Language and Speech Processing</a>.
-		My research is focused on natural language processing methods which automatically extract structure from text, and applying that structure to applications and downstream tasks.
+        <p>Hi, welcome to my website. 
+		I'm a third year Computer Science PhD student at Johns Hopkins University, 
+		working at the <a href="clsp.jhu.ed" className="text-a">Center for Language and Speech Processing</a>.
+		My research is focused on natural language processing and machine learning.
+		I'm particularly interested in optimization landscapes, multi-objective optimization, and multilingual models.
         I am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>. 
 		You can read more about my research interests over time <Link className="text-a" to="/research-interests">here.</Link>
-		
         </p>
         <p>
           Prior to attending JHU, I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://www.aclweb.org/anthology/D18-1126/" className="text-a">entity linking</a> in noisy contexts.
@@ -86,7 +87,6 @@ class BioShort extends Component {
 			<div className="biobox">
 				<p className="biohead1"> David Mueller</p>
 				<p className="biohead2"> PhD Student </p>
-				<p className="biotext1"> Center for Language and Speech Processing </p>
 				<p className="biotext1"> Johns Hopkins University </p>
 				<p className="biotext">dam@jhu.edu</p>
 				<p className="biotext"> 

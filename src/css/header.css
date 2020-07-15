@@ -20,7 +20,7 @@
 .header-name {
     margin: 10px;
     padding-left: 10px;
-    font-size: 2vw;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .header-links {
-    font-size: 1.2vw;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -86,7 +86,7 @@
 
 
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 700px) {
   .header{
     align-items: center;
     justify-content: space-evenly;
@@ -98,17 +98,6 @@
 
   .header-links{
     font-size: 3vw;
-    justify-content: space-evenly;
-  }
-}
-
-@media all and (min-width: 1800px) {
-  .header-name {
-    font-size: 30px;
-  }
-
-  .header-links{
-    font-size: 20px;
     justify-content: space-evenly;
   }
 }
