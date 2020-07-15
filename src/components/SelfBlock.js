@@ -55,9 +55,11 @@ class News extends Component {
           What I'm Up To
         </h3>
         <ul className="list">
-		  <li>I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
-          <li>I'll be participating in <a href="https://hltcoe.jhu.edu/research/scale/scale-2019/" className="text-a">SCALE 2019</a> this summer! </li>
-          <li>This past October I attended <a href="https://emnlp2018.org/" className="text-a">EMNLP 2018</a> in Brussels, Belgium. It was my first NLP conference :)</li>
+		  <li> 07/20 - I'll also be attending <a href="https://icml.cc/Conferences/2020" className="text-a">ICML 2020</a> online.</li>
+		  <li> 06/20 - I'll be presenting our <a href="https://www.aclweb.org/anthology/2020.acl-main.720/" className="text-a">paper</a> at <a href="https://acl2020.org/" className="text-a">ACL 2020</a> online.</li>
+		  <li> 12/19 - I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
+          <li> 05/19 - I'll be participating in <a href="https://hltcoe.jhu.edu/research/scale/scale-2019/" className="text-a">SCALE 2019</a> this summer. </li>
+          <li>10/18 - I attended <a href="https://emnlp2018.org/" className="text-a">EMNLP 2018</a> in Brussels, Belgium. It was my first NLP conference :)</li>
         </ul>
       </div>
     )

@@ -161,7 +161,10 @@ class RI2017 extends Component {
 		by <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> at UT. At this time I was
 		working as a software developer in Austin. I knew I had an interest in AI, and possibly research, but I wasn't
 		sure how to start getting involved with the field. I had a lot of conversations with professors that
-		left me feeling lost or a little hopeless. I will forever be grateful to Greg for allowing me to take his
+		left me feeling lost or a little hopeless, although two notable exceptions were 
+		professors <a href="https://www.cs.utexas.edu/~ans/" className="text-a">Alison Norman</a> and <a href="https://www.cs.utexas.edu/users/porter/" className="text-a">Bruce Porter</a> who 
+		instead gave me a lot of hope and encouragement. 
+		I will forever be grateful to Greg for allowing me to take his
 		course, and to continue working on my course project with him after the class ended, which ended up going
 		all the way to a conference submission.</p>
 
