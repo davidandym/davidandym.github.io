@@ -1,0 +1,145 @@
+============================================================================ 
+EMNLP 2020 Reviews for Submission #2834
+============================================================================ 
+
+Title: Ensemble Distillation for Structured Prediction: Calibrated, Accurate, Fast—Choose Three
+Authors: Steven Reich, David Mueller and Nicholas Andrews
+============================================================================
+                            META-REVIEW
+============================================================================ 
+
+Comments: During the discussion period following the rebuttal, the reviewers all agreed that the paper made a solid contribution on an interesting and important topic, with compelling experiments.
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+What is this paper about, what contributions does it make, and what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+The authors study how knowledge distillation achieves calibrated and accurate results in structured prediction, while reducing inference and training time. 
+They use ensembles of models(transformers) with a sub-sample of data or different random seeds to learn (distill) a student model. 
+They study the effect of ensemble distillation on NER and NMT tasks.
+Since the ensembles become large, they propose a technique namely the memoization technique.
+Basically token-level distillation requires access to the teacher distribution during training, which may not be feasible on GPUs, because of limited memory. 
+The technique causes a negligible increase in training time but makes it possible to handle larger model ensembles.
+
+The authors explain their motivation well and seem to be up to date (as far as I know, they show results compared to state of the art)
+Arguments are stated clearly and presented in an intuitive way which makes the reader easy to follow.
+Interesting results
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+interesting and important topic, 
+concrete ideas for future work,
+you can follow and understand the authors arguments well,
+good evaluation (using two well known measures for the evaluation and making them independent of class imbalance) and results
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Reproducibility: 4
+                  Overall Recommendation: 4
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+What is this paper about, what contributions does it make, and what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+The paper describes a well-conducted study on the distillation method used for calibration of large pretrained models on the structured prediction tasks. The paper focused on structured prediction tasks, but the method itself can be used in other general settings such as the simple document classification task too. I think the paper is clearly written and the distillation method does prove its effectiveness in terms of preserving the calibration from the teacher model --which use ensemble methods to help improve its calibration results. This again is quite general technique and can be widely applicable. The experiments are well conducted on the task of NER and NMT -- two common structured prediction task in NLP. The results also help us to understand the effect of temperature scaling and the relationship between this distillation method and other common techniques including stochastic weight averaging and label smoothing.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+Clearly written paper, simple and effective algorithm and well-conducted experiments.
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+The method itself is simple and is actually not quite related to structured prediction as the title suggested.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Reproducibility: 5
+                  Overall Recommendation: 4
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+What is this paper about, what contributions does it make, and what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+Contributions:
+Paper proposes ensemble distillation as a method for produced well calibrated model outputs for structured prediction tasks. According to the authors, the proposed method does not need held out validation set for recalibration and does not suffer from expensive inference time costs of standard ensembling
+
+
+Strengths
+- well written
+- extends calibration techniques to the structured prediction task setting 
+- validated on multiple tasks - NER and translation and demonstrate differences
+- method not only improves calibration but also improves model performance
+- propose an memoization based distillation method which enables ensembling of large no of models
+- comparison against techniques like stochastic weight averaging and studies interaction with post hoc calibration methods like temperature scaling
+- use appropriate eval metrics which account for class imbalance in target task data
+
+Weaknesses
+- Multi dataset evaluation for each of the tasks to show that result generalizes
+- lack of comparison to other single model calibration baselines (for example - https://arxiv.org/pdf/2005.07186.pdf). temperature scaling is only compared for NMT task
+- certain hyper parameters seem to be chosen ad hoc without motivations
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+Nice work overall! Tackles an important problem (calibration) in a setting of structured prediction tasks. Method proposed is well motivated and results are strong (evaluated on two tasks) and authors provide good hypothesis when empirical results are unexpected.
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+- multi dataset evaluations missing
+- comparisons with more baseline methods for improving single model uncertainty and calibration
+
+If authors address these two points sufficiently, I would be happy to increase my score.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Reproducibility: 3
+                  Overall Recommendation: 3.5
+
+Questions for the Author(s)
+---------------------------------------------------------------------------
+1. I dont quite agree with the statement that held out sets are not available for recalibration and that it is a limitation of methods like temperature scaling. You can always res split your training dataset if that is an issue. Even if you don't have labels, you can use semi-supervised learning to get over this issue.
+
+2. >  Most previous approaches to ensemble distillation collapses the ensemble distribution into a single point estimate by averaging the teacher distributions (Hinton et al., 2015; Korattikara et al.,
+2015). This has been shown to be an effective way of distilling the uncertainty captured by an ensemble in computer vision tasks (Li and Hoiem, 2019; Englesson and Azizpour, 2019). Recently Malinin
+et al. (2020) showed that by instead distilling the distribution over the ensemble into a prior network (Malinin and Gales, 2018), the student can learn to model both the epistemic and aleatory uncertainty of the ensemble.
+
+You then claim in the subsequent section that 'As our goal is to improve model calibration, which captures both types of uncertainty, we follow previous methods of ensemble distillation
+which collapse the ensemble distribution into a point-estimate by uniformly averaging the distributions of each teacher'. Does this actually capture both aleatoric and epistemic uncertainty?
+
+3. Did you consider reducing model sizes for the ensemble members given they were using less training data?
+
+4. How was the interpolation parameter computed for NER task?
+
+5. For english NER task in both IID and CRF setting - larger ensemble (6 vs 9) seem to hurt balanced ECE. Any insight why?
+
+6. What is the motivation for using for using full training data for NMT task? Why use SWA?
+
+7. What is the disk space savings or efficiency wins obtained with top k memoization?
+---------------------------------------------------------------------------
+

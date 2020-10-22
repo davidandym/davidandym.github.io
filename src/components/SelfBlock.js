@@ -37,7 +37,6 @@ class IntroText extends Component {
 		My research is focused on natural language processing and machine learning.
 		I'm particularly interested in optimization landscapes, multi-objective optimization, and multilingual models.
         I am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>. 
-		You can read more about my research interests over time <Link className="text-a" to="/research-interests">here.</Link>
         </p>
         <p>
           Prior to attending JHU, I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://www.aclweb.org/anthology/D18-1126/" className="text-a">entity linking</a> in noisy contexts.
@@ -55,6 +54,7 @@ class News extends Component {
           What I'm Up To
         </h3>
         <ul className="list">
+		  <li> 10/20 - This upcoming November and December I'll be attending <a href="https://2020.emnlp.org/" className="text-a">EMNLP 2020</a>, to help present Steven, Nick, and I's paper on ensemble distillation, and <a className="text-a" href="https://nips.cc/Conferences/2020">Neurips 2020</a> for fun :)</li>
 		  <li> 07/20 - I'll also be attending <a href="https://icml.cc/Conferences/2020" className="text-a">ICML 2020</a> online.</li>
 		  <li> 06/20 - I'll be presenting our <a href="https://www.aclweb.org/anthology/2020.acl-main.720/" className="text-a">paper</a> at <a href="https://acl2020.org/" className="text-a">ACL 2020</a> online.</li>
 		  <li> 12/19 - I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>

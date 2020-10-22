@@ -1,6 +1,15 @@
 {
     "publications": [
 		{
+			"title": "Ensemble Distillation for Structured Prediction: Calibrated, Accurate, Fast---Choose Three",
+			"authors": "Steven Reich, David Mueller, and Nicholas Andrews",
+			"conference": "EMNLP 2020",
+			"pdf": "/papers/pdfs/reich-et-al-ensemble-distill.pdf",
+			"reviews": "/papers/reviews/reich-et-al-ensemble-distill.txt",
+			"code": "https://github.com/stevenreich47/ensemble-distillation-structured-prediction",
+			"arxiv": "http://arxiv.org/abs/2010.06721"
+		},
+		{
 			"title": "Sources of Transfer in Multilingual NER",
 			"authors": "David Mueller, Nicholas Andrews, and Mark Dredze",
 			"conference": "ACL 2020",
