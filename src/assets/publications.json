@@ -1,7 +1,7 @@
 {
     "publications": [
 		{
-			"title": "Ensemble Distillation for Structured Prediction: Calibrated, Accurate, Fast---Choose Three",
+			"title": "Ensemble Distillation for Structured Prediction",
 			"authors": "Steven Reich, David Mueller, and Nicholas Andrews",
 			"conference": "EMNLP 2020",
 			"pdf": "/papers/pdfs/reich-et-al-ensemble-distill.pdf",

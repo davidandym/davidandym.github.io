@@ -9,8 +9,10 @@ class Interests extends Component {
       <div className="Self-Block">
         <h3 className="welcome-text">Research Interests</h3>
 		<p> I thought it might be interesting to keep track of how my research interests evolve over time.
-			The following is a list of things I worked on or spent a significant amount of time reading about from semester to semester.
+			Below are a few paragraphs which sum up my thoughts and interests for each semester of my PhD.
 		</p>
+        <hr className="divider"/>
+          <RI2020/>
         <hr className="divider"/>
           <RI2019/>
         <hr className="divider"/>
@@ -22,6 +24,79 @@ class Interests extends Component {
     )
   }
 }
+
+
+class RI2020 extends Component {
+  render() {
+    return (
+      <div className="text-text">
+		<h2> 2020 </h2>
+		<h3> Summer </h3>
+
+		<p>
+		Summer saw the continuation of quarantine and social distancing.
+		In the interest of full disclosure, I was starting to feel
+		pretty bad about my progress as a PhD student.
+		I'm not sure how much of this came from my lack of interaction with my peers,
+		from not going outside as much or enjoying as many hobbies, and 
+		from how much time I spent on twitter - 
+		but I really began to feel as though I just wasn't as productive or 
+		motivated as I should be. I began to have doubts as to whether I was 
+		smart enough, or disciplined enough, to be a successful researcher. 
+		In happier news, I attended ACL and ICML 2020 online during this time, and 
+		had a very enjoyable conference experience, despite dearly missing the
+		travel and in-person meetings.
+		</p>
+
+		<p>Around this time, my interests began to shift from multilingual learning
+		to multi-task learning in general. I began to become a lot more interested
+		in optimization, loss landscapes, and how these interact in a multi-objective
+		setting.
+		I also helped write a paper with Nick and Steven over ensemble distillation,
+		which sparked my interest in deep ensembles and model calibration.
+		This interest was further piqued at ICML 2020, when I attended a wonderful talk 
+		by <a href="https://cims.nyu.edu/~andrewgw/" className="text-a">Andrew Wilson</a> over 
+		advances and challenges in Bayesian Model Averaging in deep learning.
+		</p>
+
+		<h3> Spring </h3>
+		<p> 
+		This semester I spent some time wrapping up my first project with Mark 
+		and Nick, which was an <a href="https://www.aclweb.org/anthology/2020.acl-main.720/" className="text-a">ACL paper</a> over 
+		multilingual interference for NER models.
+		I was also taking 3 classes, which took up a substantial amount of my
+		bandwidth.
+		One of the classes I was taking was a deep learning dialogue class, and 
+		I spent a decent amount of time reading and thinking about dialogue 
+		models and evaluations.
+		I also worked on a small project with my coworkers and friends Mitchell 
+		and Elias, which was geared towards building a novel dialogue evaluation 
+		metric based on semantic representations of common ground. 
+		However, the project didn't end up going much farther than a class presentation.
+		</p>
+
+		<p>
+		This was also the semester that COVID-19 hit the U.S. - halfway through the 
+		semester classes moved to a remote setting, and the nation began to
+		quarantine.
+		I found it especially difficult to stay motivated during this time.
+		While I was fortunate enough to have a decent work setup, I dearly missed
+		the regular conversations with my labmates and the inspiration I derived
+		from them. 
+		Getting most of my academic discourse from twitter only served to
+		worsen my imposter syndrome and make me feel like I wasn't near as 
+		productive as I should have been. 
+		Of course, I'm extremely grateful to have had a stable source of
+		funding and income, and a partner whom I lived with, who made quarantine
+		a thousand times less isolating than it might have been.
+		</p>
+
+      </div>
+    )
+  }
+}
+
+
 
 
 class RI2019 extends Component {
@@ -107,7 +182,9 @@ class RI2018 extends Component {
 
 		<p>
 		<strong> Starting my PhD! </strong>
-		I started my PhD at JHU this semester. I also attended my first NLP conference,
+		I'm so fortunate that Mark Dredze was gracious enough to offer me a position
+		in his lab as a PhD, which began this semester. 
+		I also attended my first NLP conference,
 		EMNLP 2018, this semester. My research interests were still bouncing around
 		a lot, and I would become attached to anything that sounded cool for a couple 
 		weeks at a time, before dropping it for something else. Obviously, one thing that stuck
