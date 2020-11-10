@@ -1,0 +1,13 @@
+@inproceedings{reich-etal-2020-ensemble,
+    title = "Ensemble Distillation for Structured Prediction: Calibrated, Accurate, {F}ast{---}{C}hoose Three",
+    author = "Reich, Steven  and
+      Mueller, David  and
+      Andrews, Nicholas",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.450",
+    pages = "5583--5595",
+}

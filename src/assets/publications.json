@@ -7,7 +7,9 @@
 			"pdf": "/papers/pdfs/reich-et-al-ensemble-distill.pdf",
 			"reviews": "/papers/reviews/reich-et-al-ensemble-distill.txt",
 			"code": "https://github.com/stevenreich47/ensemble-distillation-structured-prediction",
-			"arxiv": "http://arxiv.org/abs/2010.06721"
+			"arxiv": "http://arxiv.org/abs/2010.06721",
+			"anthology_link": "https://www.aclweb.org/anthology/2020.emnlp-main.450/",
+			"bib": "/papers/bibs/reich-et-al-ensemble-distill.txt"
 		},
 		{
 			"title": "Sources of Transfer in Multilingual NER",
