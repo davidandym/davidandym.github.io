@@ -4,17 +4,21 @@
 	max-width: 100%;
     background: rgb(250, 250, 245) !important;
 	padding-top: 10px;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
 	border-radius: 15px;
 	color: #314455;
-    text-align: justify;
+    text-align: left;
 }
 
 .Notebook img {
     max-width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+.Notebook p {
+	line-height: 1.5;
 }
 
 .Notebook p code {

@@ -1,6 +1,10 @@
 {
     "posts": [
 		{
+			"title": "Understanding Neural Networks at NeurIPS 2020",
+			"ref": "Neurips2020"
+		},
+		{
 			"title": "Sampling (Exactly) From a CRF",
 			"ref": "crf_sampling"
 		}

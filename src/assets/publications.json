@@ -25,7 +25,7 @@
         {
             "title": "Effective Use of Context in Noisy Entity Linking",
             "authors": "David Mueller and Greg Durrett",
-            "conference": "EMNLP 2018 (Short)",
+            "conference": "(Short) EMNLP 2018",
             "poster": "/papers/posters/mueller-durrett-noisy-entity-linking.pdf",
             "pdf": "/papers/pdfs/mueller-durrett-noisy-entity-linking.pdf",
             "bib": "/papers/bibs/mueller-durrett-noisy-entity-linking.txt",
