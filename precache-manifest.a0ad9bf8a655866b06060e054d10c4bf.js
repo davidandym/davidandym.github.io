@@ -1,43 +1,47 @@
 self.__precacheManifest = [
   {
-    "revision": "e9f39fef151e93bacfe6",
-    "url": "/static/css/main.95ec4b36.chunk.css"
+    "revision": "f3e53b3a0cba944fea6b",
+    "url": "/static/css/main.d5aadd5a.chunk.css"
   },
   {
-    "revision": "e9f39fef151e93bacfe6",
-    "url": "/static/js/main.e9f39fef.chunk.js"
+    "revision": "f3e53b3a0cba944fea6b",
+    "url": "/static/js/main.f3e53b3a.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "f70b3d87f96a6914ff51",
-    "url": "/static/js/2.f70b3d87.chunk.js"
+    "revision": "34dc49dbf57099c38eb0",
+    "url": "/static/js/2.34dc49db.chunk.js"
   },
   {
     "revision": "d448f5a4c0bbae56f0cdf44110147fab",
     "url": "/static/media/my-face.d448f5a4.jpg"
   },
   {
+    "revision": "22a950f5cbb4ee8e0cd890ffdd86ab1b",
+    "url": "/static/media/Neurips2020.22a950f5.ipynb"
+  },
+  {
     "revision": "24b3301075a0c18a53073a4d152a1f36",
     "url": "/static/media/crf_sampling.24b33010.ipynb"
   },
   {
-    "revision": "2552b354cabf01815628a244fde0636e",
-    "url": "/static/media/academicons.2552b354.woff"
+    "revision": "ea3755c311d0678ca4f041912a9039d6",
+    "url": "/static/media/academicons.ea3755c3.eot"
   },
   {
     "revision": "1afcbd6a1c454e7b7f0bc58155558b9d",
     "url": "/static/media/academicons.1afcbd6a.ttf"
   },
   {
-    "revision": "406b38d29cffe8ffcb7962faa2e095ef",
-    "url": "/static/media/academicons.406b38d2.svg"
+    "revision": "2552b354cabf01815628a244fde0636e",
+    "url": "/static/media/academicons.2552b354.woff"
   },
   {
-    "revision": "ea3755c311d0678ca4f041912a9039d6",
-    "url": "/static/media/academicons.ea3755c3.eot"
+    "revision": "406b38d29cffe8ffcb7962faa2e095ef",
+    "url": "/static/media/academicons.406b38d2.svg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -52,15 +56,15 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
-  },
-  {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "420b00b1df395e4815d1f2bd78b5c0a3",
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "3b27984b67532892dee518532b93cdc9",
     "url": "/index.html"
   }
 ];
