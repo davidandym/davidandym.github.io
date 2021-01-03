@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3dc71156a40d9a6e1a57",
-    "url": "/static/css/main.d5aadd5a.chunk.css"
+    "revision": "0841702769b449bc9770",
+    "url": "/static/css/main.40b17bf9.chunk.css"
   },
   {
-    "revision": "3dc71156a40d9a6e1a57",
-    "url": "/static/js/main.3dc71156.chunk.js"
+    "revision": "0841702769b449bc9770",
+    "url": "/static/js/main.08417027.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/my-face.d448f5a4.jpg"
   },
   {
-    "revision": "5c186ae2c7e4e2126f1510763e1aedf1",
-    "url": "/static/media/Neurips2020.5c186ae2.ipynb"
+    "revision": "668b333f8a98dc761024143a7d266806",
+    "url": "/static/media/Neurips2020.668b333f.ipynb"
   },
   {
     "revision": "24b3301075a0c18a53073a4d152a1f36",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/static/media/academicons.2552b354.woff"
   },
   {
-    "revision": "ea3755c311d0678ca4f041912a9039d6",
-    "url": "/static/media/academicons.ea3755c3.eot"
-  },
-  {
     "revision": "1afcbd6a1c454e7b7f0bc58155558b9d",
     "url": "/static/media/academicons.1afcbd6a.ttf"
+  },
+  {
+    "revision": "ea3755c311d0678ca4f041912a9039d6",
+    "url": "/static/media/academicons.ea3755c3.eot"
   },
   {
     "revision": "406b38d29cffe8ffcb7962faa2e095ef",
@@ -48,6 +48,10 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
@@ -56,15 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
-  },
-  {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "c600afd1dc5995e8f01177228d4a7a3f",
+    "revision": "746e80fa699b15e599188451b660cb15",
     "url": "/index.html"
   }
 ];
