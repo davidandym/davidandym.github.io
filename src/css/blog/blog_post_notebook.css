@@ -13,8 +13,12 @@
 
 .Notebook img {
     max-width: 100%;
-    margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
     display: block;
+	box-shadow:  3px 3px 5px 4px #ccc;
 }
 
 .Notebook p {
