@@ -2,11 +2,18 @@
     "posts": [
 		{
 			"title": "Understanding Neural Networks at NeurIPS 2020",
-			"ref": "Neurips2020"
+			"ref": "Neurips2020",
+			"tags": ["conference summary", "deep learning"]
 		},
 		{
 			"title": "Sampling (Exactly) From a CRF",
-			"ref": "crf_sampling"
+			"ref": "crf_sampling",
+			"tags": ["structured prediction"]
+		},
+		{
+			"title": "My Research Interests Over Time",
+			"ref": "phdiary",
+			"tags": ["personal"]
 		}
     ]
 }

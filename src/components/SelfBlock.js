@@ -37,7 +37,7 @@ class IntroText extends Component {
 		My research is focused on natural language processing and machine learning.
 		I'm particularly interested in optimization landscapes, multi-objective optimization, and multilingual models.
         I am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>. 
-		You can read more about my research interests over time <Link className="text-a" to="/research-interests">here.</Link>
+		You can read more about my research interests over time <Link className="text-a" to="/blog-post/phdiary">here.</Link>
         </p>
         <p>
           Prior to attending JHU, I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://www.aclweb.org/anthology/D18-1126/" className="text-a">entity linking</a> in noisy contexts.

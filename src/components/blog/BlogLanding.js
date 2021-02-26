@@ -10,6 +10,7 @@ class BlogLanding extends Component {
                 <PostItem
                     title={value.title}
 					post_ref={value.ref}
+					tags={value.tags}
                 />
             )
         });
@@ -24,9 +25,26 @@ class BlogLanding extends Component {
     }
 }
 
+
+class PubLink extends Component {
+	render() {
+		if (this.props.link == null) {
+			return <a/>
+		}
+		return (
+        	<a className="pub-a" href={this.props.link}>{this.props.name}</a>
+		)
+	}
+}
+
+
 class PostItem extends Component {
     render() {
-		console.log(this.props.post_ref)
+
+		const tags = this.props.tags
+  		const tagItems = tags.map((tag) =>
+			<PubLink link={"#/blog"} name={tag}/>
+  		);
 
         return (
             <div className="pub-item">
@@ -35,6 +53,10 @@ class PostItem extends Component {
 						{this.props.title}
 					</Link>
                 </div>
+                <div className="pub-links">
+					tags: &nbsp; 
+					{tagItems}
+				</div>
             </div>
         )
     }
