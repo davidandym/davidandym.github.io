@@ -1,18 +1,20 @@
 {
   "main.css": "/static/css/main.40b17bf9.chunk.css",
-  "main.js": "/static/js/main.08417027.chunk.js",
-  "main.js.map": "/static/js/main.08417027.chunk.js.map",
+  "main.js": "/static/js/main.abb5d526.chunk.js",
+  "main.js.map": "/static/js/main.abb5d526.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
   "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/js/2.34dc49db.chunk.js": "/static/js/2.34dc49db.chunk.js",
-  "static/js/2.34dc49db.chunk.js.map": "/static/js/2.34dc49db.chunk.js.map",
+  "static/js/2.82975776.chunk.js": "/static/js/2.82975776.chunk.js",
+  "static/js/2.82975776.chunk.js.map": "/static/js/2.82975776.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.6c58d777c92ba5b89eefd2d75e8963ed.js": "/precache-manifest.6c58d777c92ba5b89eefd2d75e8963ed.js",
+  "precache-manifest.037f6035459c9c7c1534ad23e07a6ca7.js": "/precache-manifest.037f6035459c9c7c1534ad23e07a6ca7.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.40b17bf9.chunk.css.map": "/static/css/main.40b17bf9.chunk.css.map",
+  "static/media/NNLLs.ipynb": "/static/media/NNLLs.d068ac74.ipynb",
   "static/media/Neurips2020.ipynb": "/static/media/Neurips2020.668b333f.ipynb",
   "static/media/academicons.min.css": "/static/media/academicons.ea3755c3.eot",
   "static/media/crf_sampling.ipynb": "/static/media/crf_sampling.24b33010.ipynb",
   "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/my-face.jpg": "/static/media/my-face.d448f5a4.jpg"
+  "static/media/my-face.jpg": "/static/media/my-face.d448f5a4.jpg",
+  "static/media/phdiary.ipynb": "/static/media/phdiary.cbcabb19.ipynb"
 }
