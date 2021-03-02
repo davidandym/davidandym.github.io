@@ -1,19 +1,28 @@
 {
     "posts": [
 		{
+			"title": "Neural Network Loss Landscapes: What do we know?",
+			"ref": "NNLLs",
+			"tags": ["deep learning"],
+			"hidden": true
+		},
+		{
 			"title": "Understanding Neural Networks at NeurIPS 2020",
 			"ref": "Neurips2020",
-			"tags": ["conference summary", "deep learning"]
+			"tags": ["conference summary", "deep learning"],
+			"hidden": false
 		},
 		{
 			"title": "Sampling (Exactly) From a CRF",
 			"ref": "crf_sampling",
-			"tags": ["structured prediction"]
+			"tags": ["structured prediction"],
+			"hidden": false 
 		},
 		{
 			"title": "My Research Interests Over Time",
 			"ref": "phdiary",
-			"tags": ["personal"]
+			"tags": ["personal"],
+			"hidden": false
 		}
     ]
 }

@@ -74,11 +74,11 @@ class Misc extends Component {
         <h3>A little about me...</h3>
         <p>Outside of research I have a few hobbies, including:</p>
         <ul className="list">
-          <li>Training and competing in Brazilian Jiu-Jitsu at <a href="https://www.formjiujitsu.com/" className="text-a">Form Jiu-Jitsu</a> (Although, due to COVID-19, I have been unable to train for most of 2020).</li>
+          <li>Training and competing in Brazilian Jiu-Jitsu at <a href="https://www.formjiujitsu.com/" className="text-a">Form Jiu-Jitsu</a> (Although, due to COVID-19, I have been unable to train for over a year).</li>
           <li>Improving my cooking skills, with a recent focus on vegetarian cuisine.</li>
           <li>Trying to improve my latte art game. You can view my progress <a href="https://photos.app.goo.gl/YHK7SrMobdsbG4k66" className="text-a">here</a>.</li>
           <li>Reading, mostly fantasy and science-fiction. Add me on <a href="http://www.goodreads.com/damueller" className="text-a">goodreads</a> to see what I'm currently reading.</li>
-		  <li>I also sometimes play video games, I'm a big fan of <a href="https://playvalorant.com/en-us/" className="text-a">Valorant</a> at the moment.</li>
+		  <li>I also sometimes play video games, I'm a big fan of <a href="https://playvalorant.com/en-us/" className="text-a">Valorant</a> and <a href="https://www.callofduty.com/warzone" className="text-a">Call of Duty: Warzone</a> at the moment.</li>
         </ul>
       </div>
     )

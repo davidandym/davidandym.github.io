@@ -6,13 +6,15 @@ import "../../css/publications.css"
 class BlogLanding extends Component {
     render() {
         var li = posts.posts.map((value, _) => {
-            return (
-                <PostItem
-                    title={value.title}
-					post_ref={value.ref}
-					tags={value.tags}
-                />
-            )
+			if (value.hidden == false) {
+            	return (
+            	    <PostItem
+            	        title={value.title}
+						post_ref={value.ref}
+						tags={value.tags}
+            	    />
+            	)
+			}
         });
 
         return (
