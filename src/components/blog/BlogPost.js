@@ -61,7 +61,7 @@ function Image(props) {
 }
 
 function parse_cell(cell) {
-    let language = "python"
+    let language = "text"
    
 	if ( cell.source.length == 0 ) {
 		return
