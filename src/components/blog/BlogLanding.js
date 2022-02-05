@@ -59,6 +59,10 @@ class PostItem extends Component {
 					tags: &nbsp; 
 					{tagItems}
 				</div>
+                <div className="pub-links">
+					Posted: &nbsp; 
+					{this.props.post_date}
+				</div>
             </div>
         )
     }

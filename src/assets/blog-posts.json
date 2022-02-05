@@ -1,10 +1,22 @@
 {
     "posts": [
 		{
+			"title": "What is a \"Task\" in Machine Learning?",
+			"ref": "WhatIsATask",
+			"tags": ["multi-task learning", "deep learning", "speculative"],
+			"hidden": false
+		},
+		{
+			"title": "Thoughts on Gradient Covariance",
+			"ref": "In Progress/GradientCovariance",
+			"tags": ["deep learning", "optimization"],
+			"hidden": false
+		},
+		{
 			"title": "Neural Network Loss Landscapes: What do we know?",
 			"ref": "NNLLs",
 			"tags": ["deep learning"],
-			"hidden": true
+			"hidden": false
 		},
 		{
 			"title": "Understanding Neural Networks at NeurIPS 2020",
