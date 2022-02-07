@@ -5,14 +5,14 @@
 			"ref": "WhatIsATask",
 			"tags": ["multi-task learning", "deep learning", "speculative"],
 			"post_date": "March 2022",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Thoughts on Gradient Covariance",
 			"ref": "In Progress/GradientCovariance",
 			"tags": ["deep learning", "optimization"],
 			"post_date": "February 2022",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Neural Network Loss Landscapes: What do we know?",

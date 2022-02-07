@@ -55,12 +55,9 @@ class News extends Component {
           What I'm Up To
         </h3>
         <ul className="list">
-		  <li> 10/20 - This upcoming November and December I'll be attending <a href="https://2020.emnlp.org/" className="text-a">EMNLP 2020</a>, to help present Steven, Nick, and I's paper on ensemble distillation, and <a className="text-a" href="https://nips.cc/Conferences/2020">Neurips 2020</a> for fun :)</li>
-		  <li> 07/20 - I'll also be attending <a href="https://icml.cc/Conferences/2020" className="text-a">ICML 2020</a> online.</li>
-		  <li> 06/20 - I'll be presenting our <a href="https://www.aclweb.org/anthology/2020.acl-main.720/" className="text-a">paper</a> at <a href="https://acl2020.org/" className="text-a">ACL 2020</a> online.</li>
+		  <li> 11/21 - I'm currently looking for ML internships for the Summer/Spring of 2022. Please reach out if you have an opening!</li>
+		  <li> 08/21 - I recently moved to New York City - if you're around Manhattan and want to grab a coffee sometime, email me!</li>
 		  <li> 12/19 - I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
-          <li> 05/19 - I'll be participating in <a href="https://hltcoe.jhu.edu/research/scale/scale-2019/" className="text-a">SCALE 2019</a> this summer. </li>
-          <li>10/18 - I attended <a href="https://emnlp2018.org/" className="text-a">EMNLP 2018</a> in Brussels, Belgium. It was my first NLP conference :)</li>
         </ul>
       </div>
     )

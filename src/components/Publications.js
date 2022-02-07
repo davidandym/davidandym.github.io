@@ -36,16 +36,18 @@ class Publications extends Component {
 
         return (
             <div className="pub-outer">
+			{/*
 			<h2>Pre-Prints</h2>
 			Work that is currently pending review.
         	<hr className="divider"/>
+			*/}
 			<h2>Conference Publications</h2>
 			Peer-Reviewed Work.
               {li}
-        	<hr className="divider"/>
+			{/*<hr className="divider"/>
 			<h2>Snippets</h2>
-			Small, non-published works aimed at intuition building, rather than
-			novel research.
+			Small, unpublished works aimed at intuition building, rather than
+			novel research.*/}
         	<hr className="divider"/>
 			<h2>Notes</h2>
 			Sets of notes that I take as I work through various fundamental
