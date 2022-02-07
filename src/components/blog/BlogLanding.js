@@ -12,6 +12,7 @@ class BlogLanding extends Component {
             	        title={value.title}
 						post_ref={value.ref}
 						tags={value.tags}
+						post_date={value.post_date}
             	    />
             	)
 			}
@@ -59,9 +60,8 @@ class PostItem extends Component {
 					tags: &nbsp; 
 					{tagItems}
 				</div>
-                <div className="pub-links">
-					Posted: &nbsp; 
-					{this.props.post_date}
+                <div className="pub-date-text">
+					Posted: {this.props.post_date}
 				</div>
             </div>
         )
