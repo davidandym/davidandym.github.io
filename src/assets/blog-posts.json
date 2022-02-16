@@ -5,10 +5,10 @@
 			"ref": "WhatIsATask",
 			"tags": ["multi-task learning", "deep learning", "speculative"],
 			"post_date": "March 2022",
-			"hidden": false
+			"hidden": true 
 		},
 		{
-			"title": "Thoughts on Gradient Covariance",
+			"title": "Gradient Covariance in Deep Learning",
 			"ref": "GradientCovariance",
 			"tags": ["deep learning", "optimization"],
 			"post_date": "February 2022",

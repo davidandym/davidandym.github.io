@@ -55,7 +55,7 @@ class News extends Component {
           What I'm Up To
         </h3>
         <ul className="list">
-		  <li> 11/21 - I'm currently looking for ML internships for the Summer/Spring of 2022. Please reach out if you have an opening!</li>
+		  <li> 11/21 - I'm currently looking for ML internships for the Summer/Fall of 2022. Please reach out if you have an opening!</li>
 		  <li> 08/21 - I recently moved to New York City - if you're around Manhattan and want to grab a coffee sometime, email me!</li>
 		  <li> 12/19 - I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
         </ul>
