@@ -1,11 +1,18 @@
 {
     "posts": [
 		{
+			"title": "I'm a what year?!?!",
+			"ref": "WhatIsATask",
+			"tags": ["personal"],
+			"post_date": "March 2022",
+			"hidden": false
+		},
+		{
 			"title": "What is a \"Task\" in Machine Learning?",
 			"ref": "WhatIsATask",
 			"tags": ["multi-task learning", "deep learning", "speculative"],
 			"post_date": "March 2022",
-			"hidden": true 
+			"hidden": false
 		},
 		{
 			"title": "Gradient Covariance in Deep Learning",
