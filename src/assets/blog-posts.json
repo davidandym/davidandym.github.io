@@ -1,6 +1,13 @@
 {
     "posts": [
 		{
+			"title": "10 Papers from ICLR 2022",
+			"ref": "ICLR2022",
+			"tags": ["conference summary", "deep learning", "survey"],
+			"post_date": "May 2022",
+			"hidden": false
+		},
+		{
 			"title": "I'm a what year?!?!",
 			"ref": "WhatIsATask",
 			"tags": ["personal"],

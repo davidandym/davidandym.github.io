@@ -10,6 +10,7 @@ import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism';
 // import SyntaxHighlighter from 'react-syntax-highlighter';
 // import { foundation } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import MathJax from 'react-mathjax';
+import rehypeRaw from 'rehype-raw';
 import RemarkMathPlugin from 'remark-math';
 
 import '../../css/blog/blog_post_notebook.css';
@@ -39,7 +40,7 @@ function MarkdownRender(props) {
     const newProps = {
         ...props,
         plugins: [
-          RemarkMathPlugin,
+          RemarkMathPlugin
         ],
         renderers: {
           ...props.renderers,
@@ -51,7 +52,7 @@ function MarkdownRender(props) {
       };
       return (
         <MathJax.Provider input="tex">
-            <ReactMarkdown {...newProps} />
+            <ReactMarkdown rehypePlugins={[rehypeRaw]} {...newProps} />
         </MathJax.Provider>
       );
 }
