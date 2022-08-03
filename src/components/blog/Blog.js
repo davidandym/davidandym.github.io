@@ -28,7 +28,7 @@ class Blog extends Component {
       <div className="content">
         <Notebook source={notebook.cells} />
       </div>
-    )
+	)
   }
 }
 

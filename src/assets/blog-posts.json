@@ -1,32 +1,39 @@
 {
     "posts": [
 		{
+			"title": "Some Take-Aways from ICML 2022",
+			"ref": "ICML2022",
+			"tags": ["conference summary"],
+			"post_date": "July 2022",
+			"hidden": false
+		},
+		{
 			"title": "10 Papers from ICLR 2022",
 			"ref": "ICLR2022",
-			"tags": ["conference summary", "deep learning", "survey"],
+			"tags": ["conference summary"],
 			"post_date": "May 2022",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "I'm a what year?!?!",
 			"ref": "WhatIsATask",
 			"tags": ["personal"],
 			"post_date": "March 2022",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "What is a \"Task\" in Machine Learning?",
 			"ref": "WhatIsATask",
 			"tags": ["multi-task learning", "deep learning", "speculative"],
 			"post_date": "March 2022",
-			"hidden": false
+			"hidden": true
 		},
 		{
-			"title": "Gradient Covariance in Deep Learning",
+			"title": "A Tutorial on Gradient Noise in Deep Learning",
 			"ref": "GradientCovariance",
 			"tags": ["deep learning", "optimization"],
 			"post_date": "February 2022",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "Neural Network Loss Landscapes: What do we know?",
@@ -38,7 +45,7 @@
 		{
 			"title": "Understanding Neural Networks at NeurIPS 2020",
 			"ref": "Neurips2020",
-			"tags": ["conference summary", "deep learning", "survey"],
+			"tags": ["conference summary"],
 			"post_date": "December 2020",
 			"hidden": false
 		},

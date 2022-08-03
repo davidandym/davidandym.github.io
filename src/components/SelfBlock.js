@@ -31,11 +31,12 @@ class IntroText extends Component {
   render() {
     return (
       <div className="text-text">
-        <p>Hi, welcome to my website. 
-		I'm a third year Computer Science PhD student at Johns Hopkins University, 
+        <p>Hi, welcome to my website!
+		I'm a fourth year Computer Science PhD student at Johns Hopkins University, 
 		working at the <a href="clsp.jhu.ed" className="text-a">Center for Language and Speech Processing</a>.
-		My research is focused on natural language processing and machine learning.
-		I'm particularly interested in optimization landscapes, multi-objective optimization, and multilingual models.
+		My research is focused on machine learning, and in particular multi-task optimization in deep neural networks
+		and it's applications to natural language processing models.
+		I like thinking about optimization landscapes, empirical phenomena in deep learning, and ways to connect theory and practice in modern neural networks.
         I am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>. 
 		You can read more about my research interests over time <Link className="text-a" to="/blog-post/phdiary">here.</Link>
         </p>
@@ -55,7 +56,8 @@ class News extends Component {
           What I'm Up To
         </h3>
         <ul className="list">
-		  <li> 11/21 - I'm currently looking for ML internships for the Summer/Fall of 2022. Please reach out if you have an opening!</li>
+		  <li> 07/22 - I just released a blog post on my experience at ICML 2022 - <Link className="text-a" to="/blog-post/ICML2022">check it out!</Link></li>
+		  <li> 06/22 - I'm currently looking for ML internships for the Spring/Summer of 2023. Please reach out if you think I'd be a good fit!</li>
 		  <li> 08/21 - I recently moved to New York City - if you're around Manhattan and want to grab a coffee sometime, email me!</li>
 		  <li> 12/19 - I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
         </ul>
