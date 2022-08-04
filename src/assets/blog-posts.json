@@ -5,7 +5,7 @@
 			"ref": "ICML2022",
 			"tags": ["conference summary"],
 			"post_date": "July 2022",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "10 Papers from ICLR 2022",
