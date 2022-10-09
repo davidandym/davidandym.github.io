@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9241bdbe06c70b672074",
+    "revision": "10f1600131f9b678e915",
     "url": "/static/css/main.bf5c1670.chunk.css"
   },
   {
-    "revision": "9241bdbe06c70b672074",
-    "url": "/static/js/main.9241bdbe.chunk.js"
+    "revision": "10f1600131f9b678e915",
+    "url": "/static/js/main.10f16001.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/ICLR2022.b5621964.ipynb"
   },
   {
-    "revision": "a65a2067ab5a9b15e10c9c181d144dd5",
-    "url": "/static/media/ICML2022.a65a2067.ipynb"
+    "revision": "5a0656bf489975da39364ab41c25e2e4",
+    "url": "/static/media/ICML2022.5a0656bf.ipynb"
   },
   {
     "revision": "e653f85601651b73861f98a86c8af172",
@@ -56,8 +56,16 @@ self.__precacheManifest = [
     "url": "/static/media/crf_sampling.2d2bb8eb.ipynb"
   },
   {
-    "revision": "28cec35b0edba200c0807559d100f92c",
-    "url": "/static/media/phdiary.28cec35b.ipynb"
+    "revision": "ff85e58810331c3ccb1ac93a4ebc3c67",
+    "url": "/static/media/phdiary.ff85e588.ipynb"
+  },
+  {
+    "revision": "ea3755c311d0678ca4f041912a9039d6",
+    "url": "/static/media/academicons.ea3755c3.eot"
+  },
+  {
+    "revision": "406b38d29cffe8ffcb7962faa2e095ef",
+    "url": "/static/media/academicons.406b38d2.svg"
   },
   {
     "revision": "2552b354cabf01815628a244fde0636e",
@@ -68,35 +76,27 @@ self.__precacheManifest = [
     "url": "/static/media/academicons.1afcbd6a.ttf"
   },
   {
-    "revision": "406b38d29cffe8ffcb7962faa2e095ef",
-    "url": "/static/media/academicons.406b38d2.svg"
-  },
-  {
-    "revision": "ea3755c311d0678ca4f041912a9039d6",
-    "url": "/static/media/academicons.ea3755c3.eot"
-  },
-  {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
-  },
-  {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "86adab67715b85600191e17234c10778",
+    "revision": "029b78af4ec5f525c6377ea1f25092a1",
     "url": "/index.html"
   }
 ];
