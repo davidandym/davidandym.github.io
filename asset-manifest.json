@@ -1,19 +1,19 @@
 {
   "main.css": "/static/css/main.bf5c1670.chunk.css",
-  "main.js": "/static/js/main.05d1689c.chunk.js",
-  "main.js.map": "/static/js/main.05d1689c.chunk.js.map",
+  "main.js": "/static/js/main.9241bdbe.chunk.js",
+  "main.js.map": "/static/js/main.9241bdbe.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
   "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
   "static/js/2.eca4f34c.chunk.js": "/static/js/2.eca4f34c.chunk.js",
   "static/js/2.eca4f34c.chunk.js.map": "/static/js/2.eca4f34c.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.007f65bbc0b84907a773dbafe7525986.js": "/precache-manifest.007f65bbc0b84907a773dbafe7525986.js",
+  "precache-manifest.97c065a576e95e53a9db0d5c7054003f.js": "/precache-manifest.97c065a576e95e53a9db0d5c7054003f.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.bf5c1670.chunk.css.map": "/static/css/main.bf5c1670.chunk.css.map",
   "static/media/4years.ipynb": "/static/media/4years.1145c630.ipynb",
   "static/media/GradientCovariance.ipynb": "/static/media/GradientCovariance.e653f856.ipynb",
   "static/media/ICLR2022.ipynb": "/static/media/ICLR2022.b5621964.ipynb",
-  "static/media/ICML2022.ipynb": "/static/media/ICML2022.e40e4d51.ipynb",
+  "static/media/ICML2022.ipynb": "/static/media/ICML2022.a65a2067.ipynb",
   "static/media/NNLLs.ipynb": "/static/media/NNLLs.f663214e.ipynb",
   "static/media/Neurips2020.ipynb": "/static/media/Neurips2020.e836e643.ipynb",
   "static/media/WhatIsATask.ipynb": "/static/media/WhatIsATask.b96a8bab.ipynb",
@@ -21,5 +21,5 @@
   "static/media/crf_sampling.ipynb": "/static/media/crf_sampling.2d2bb8eb.ipynb",
   "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/my-face.jpg": "/static/media/my-face.484e84bb.jpg",
-  "static/media/phdiary.ipynb": "/static/media/phdiary.8e3bb7bb.ipynb"
+  "static/media/phdiary.ipynb": "/static/media/phdiary.28cec35b.ipynb"
 }
