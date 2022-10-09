@@ -1,0 +1,175 @@
+============================================================================ 
+EMNLP 2022 Reviews for Submission #1767
+============================================================================ 
+
+Title: Do Text-to-Text Multi-Task Learners Suffer from Task Conflict?
+Authors: David Mueller, Nicholas Andrews and Mark Dredze
+============================================================================
+                            META-REVIEW
+============================================================================ 
+
+Comments: This paper empirically explores task conflict and negative transfer under the text-to-text multi-task learning framework. All reviewers agree that the paper is well presented and interesting. However, there are a few concerns raised by reviewers #2 and #3, these concerns have been addressed to some extent by authors during the rebuttal.
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+What is this paper about, what contributions does it make, and what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+In this paper, the authors discuss in a very clear and thorough way the problem of multi-task-learning (MTL); in particular, they analyse how MTL with a single text-to-text model affects transfer learning and the training objective.
+The experimental analysis is performed on standard benchmarks.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+The paper is very well presented and clear. Every section has the main definitions that the reader needs to understand the subsequent parts.
+The results are also very interesting since they give a better overview of how MTL works and what parts are not functioning properly (given the current state-of-the-art).
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+None in particular
+---------------------------------------------------------------------------
+
+
+Questions for the Author(s)
+---------------------------------------------------------------------------
+Could you change the symbol you use for factors (1), (2), and (3) to simple 1, 2, 3 or F1, F2, F3? It's a small thing but it is annoying (at least to my eye).
+
+In Section 5, I cannot see the differences of  "orders of magnitude" in Figure 2. Unless I misinterpreted the object of orders of magnitude.
+
+Maybe the concept of "diverse" prompt may be refined or explained better. I know it refers to the paper (Sans et al.) but I think that clarifying what "diverse" means in this context would help.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Reproducibility: 3
+                        Ethical Concerns: No
+     Overall Recommendation - Long Paper: 4
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+What is this paper about, what contributions does it make, and what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+This paper poses an interesting and important question about if the text-to-text multi-task learner suffers from task conflict. The authors use empirical experiments to show their observations: similar task conflict can be found in both  text-to-text and canonical multi-task learners with similar negative transfer. Two benchmarks (GLUE  and DecaNLP) are employed to work with two architectures to demonstrate their observations.
+
+
+Strengths:
+
+1. The topic is interesting and the papers propose some unique observations after extensive empirical analysis and experiments.
+2. The paper defines two simple mathematical and statistical metrics to measure the task conflict differences between text-to-text and canonical multi-task learners.
+
+
+Weakness:
+1.The proposed questions are not well addressed . The paper shows some observations but did not provide a concrete and reasonable solution such that the task conflicts can be addressed. The insight from this paper is limited.
+2. The empirical observations are not solid and rigorous. The paper provides two simple metrics but does not explain why these metrics are necessary and what the high-level intuition is. I did not get the motivation why the authors came up with these metrics to show the task conflict differences. In addition, there is no rigorous mathematical proof or statistical analysis. 
+3. Lack of careful related work discussion. The related work section is hard to follow and the authors did not explain their contributions and differences from existing works. Some references (e.g, [1]) are missed.
+4. Experimental setting is limited and the discussion is not insightful. Since the paper mainly focuses on the task conflict problems of text-to-text multi-task learner,  it is important to show the results in various settings.  For instance, I recommend authors include a careful analysis showing the results of two architectures against different task groups in the two benchmarks.  
+5. The writing is not good. There  are several typos and confusing sentences. 
+
+[1] Which Tasks Should Be Learned Together in Multi-task Learning? ICML 2020.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+see strength.
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+see weakness.
+---------------------------------------------------------------------------
+
+
+Questions for the Author(s)
+---------------------------------------------------------------------------
+See weakness. Meanwhile, the text-to-text architecture with multi-task prompt learning has shown its strong zero-shot generalization ability.  I did not see any discussion and comparison of the two architectures on this ability.
+---------------------------------------------------------------------------
+
+
+Missing References
+---------------------------------------------------------------------------
+[1] Which Tasks Should Be Learned Together in Multi-task Learning? ICML 2020.
+---------------------------------------------------------------------------
+
+
+Typos, Grammar, Style, and Presentation Improvements
+---------------------------------------------------------------------------
+the overall writing could be polished a lot.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Reproducibility: 4
+                        Ethical Concerns: No
+     Overall Recommendation - Long Paper: 2.5
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+What is this paper about, what contributions does it make, and what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+Abs: 
+The authors investigate the effects of text-to-text learning on multi-task conflict and negative transfer.
+In detail, they propose three major factors that differ between canonical and text-to-text MTL models. Furthermore, they give an empirical study of the impact of each of these characteristics on negative transfer and multi-task conflict across two common MTL benchmarks. 
+The main conclusion of this paper is (1) architectural elements influence multi-task conflict but have little influence on negative transfer; (2) task prompts are required to specify tasks in multi-task learning, increasing the semantics of task descriptions with natural language might harm negative transfer.
+
+Strengths:
+The authors give a detail analysis on differences between canonical and T2T MTL.
+Rich experimentation has been done and is sufficient to support the claims.
+The paper is well-written overall.
+
+Weaknesses:
+Some content need more explanation.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+1. The analysis of Text-to-Text MTL would be beneficial to multi-task learning or other NLP community.
+2. The experiments are enough to evaluate the authors' claims.
+3. This paper focuses on an uncover research question and it is interesting.
+4. The paper is well-written overall.
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+1. The results show that the MTL fusion of T5 model is appropriate. So, this paper further proves the effectiveness of T5. 
+2. The content of section 3,4 is hard to follow. For example, an example is given in line 182-187, but it is confusing that why a unified decoder could generate representations in separate spaces.
+---------------------------------------------------------------------------
+
+
+Questions for the Author(s)
+---------------------------------------------------------------------------
+Please write any questions you have for the author(s) that you would like answers for in the author response, particularly those that are relevant for your overall recommendation.
+Please refer to reasons to reject. Besides, I'm afraid your design of independent head is too simple for T5 MTL framework. Whether the decline of performance attributes to this reason?
+---------------------------------------------------------------------------
+
+
+Missing References
+---------------------------------------------------------------------------
+For the perspective of typo and grammatical errors the paper is overall well-formed.
+Some examples need more explanation since they are hard to follow.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Reproducibility: 4
+                        Ethical Concerns: No
+     Overall Recommendation - Long Paper: 3.5

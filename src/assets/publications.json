@@ -1,6 +1,13 @@
 {
     "publications": [
 		{
+			"title": "Do Text-to-Text Learners Suffer from Task Conflict?",
+			"authors": "David Mueller, Nicholas Andrews, and Mark Dredze",
+			"conference": "Findings of EMNLP 2022",
+			"reviews": "/papers/reviews/mueller-et-al-do-text-to-text-learners.txt",
+			"code": "https://github.com/davidandym/task-conflict-in-text-to-text-learners"
+		},
+		{
 			"title": "Ensemble Distillation for Structured Prediction",
 			"authors": "Steven Reich, David Mueller, and Nicholas Andrews",
 			"conference": "EMNLP 2020",

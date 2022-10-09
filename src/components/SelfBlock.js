@@ -32,7 +32,7 @@ class IntroText extends Component {
     return (
       <div className="text-text">
         <p>Hi, welcome to my website!
-		I'm a fourth year Computer Science PhD student at Johns Hopkins University, 
+		I'm a fith year Computer Science PhD Candidate at Johns Hopkins University, 
 		working at the <a href="clsp.jhu.ed" className="text-a">Center for Language and Speech Processing</a>.
 		My research is focused on machine learning, and in particular multi-task optimization in deep neural networks
 		and it's applications to natural language processing models.
@@ -57,7 +57,8 @@ class News extends Component {
         </h3>
         <ul className="list">
 		 {/* <li> 07/22 - I just released a blog post on my experience at ICML 2022 - <Link className="text-a" to="/blog-post/ICML2022">check it out!</Link></li> */}
-		  <li> 06/22 - I'm currently looking for ML internships for the Spring/Summer of 2023. Please reach out if you think I'd be a good fit!</li>
+		  <li> 10/22 - I'm currently looking for ML internships for the Summer/Spring of 2023. Please reach out if you think I'd be a good fit!</li>
+		  <li> 10/22 - I'll be attenting EMNLP 2022 to present my work on task conflict in text-to-text models!</li>
 		  <li> 08/21 - I recently moved to New York City - if you're around Manhattan and want to grab a coffee sometime, email me!</li>
 		  <li> 12/19 - I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
         </ul>
@@ -88,7 +89,7 @@ class BioShort extends Component {
 		return (
 			<div className="biobox">
 				<p className="biohead1"> David Mueller</p>
-				<p className="biohead2"> PhD Student </p>
+				<p className="biohead2"> PhD Candidate </p>
 				<p className="biotext1"> Johns Hopkins University </p>
 				<p className="biotext">dam@jhu.edu</p>
 				<p className="biotext"> 
