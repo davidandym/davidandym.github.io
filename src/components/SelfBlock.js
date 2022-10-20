@@ -58,7 +58,7 @@ class News extends Component {
         <ul className="list">
 		 {/* <li> 07/22 - I just released a blog post on my experience at ICML 2022 - <Link className="text-a" to="/blog-post/ICML2022">check it out!</Link></li> */}
 		  <li> 10/22 - I'm currently looking for ML internships for the Summer/Spring of 2023. Please reach out if you think I'd be a good fit!</li>
-		  <li> 10/22 - I'll be attenting EMNLP 2022 to present my work on task conflict in text-to-text models!</li>
+		  <li> 10/22 - I'll be attending NeurIPS and EMNLP this year to present some of my recent work! Let me know if you'd like to meet up!</li>
 		  <li> 08/21 - I recently moved to New York City - if you're around Manhattan and want to grab a coffee sometime, email me!</li>
 		  <li> 12/19 - I was a TA for <a href="http://www.cs475.org/fall2019/" className="text-a">Machine Learning</a> this past fall of 2019!</li>
         </ul>
