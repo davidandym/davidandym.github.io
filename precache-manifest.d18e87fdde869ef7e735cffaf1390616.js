@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0f6f9eaec7eda146b017",
+    "revision": "15f0f920b9251fb6ef3e",
     "url": "/static/css/main.bf5c1670.chunk.css"
   },
   {
-    "revision": "0f6f9eaec7eda146b017",
-    "url": "/static/js/main.0f6f9eae.chunk.js"
+    "revision": "15f0f920b9251fb6ef3e",
+    "url": "/static/js/main.15f0f920.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/4years.1145c630.ipynb"
   },
   {
-    "revision": "7230d1c1f432ce2f7a133d9b8c6cd37b",
-    "url": "/static/media/GradientCovariance.7230d1c1.ipynb"
+    "revision": "da1d782b638908f177063042ee901932",
+    "url": "/static/media/GradientCovariance.da1d782b.ipynb"
   },
   {
     "revision": "b5621964b68087dc63de8d3af0a52fca",
@@ -60,20 +60,20 @@ self.__precacheManifest = [
     "url": "/static/media/phdiary.ff85e588.ipynb"
   },
   {
-    "revision": "2552b354cabf01815628a244fde0636e",
-    "url": "/static/media/academicons.2552b354.woff"
-  },
-  {
-    "revision": "406b38d29cffe8ffcb7962faa2e095ef",
-    "url": "/static/media/academicons.406b38d2.svg"
+    "revision": "1afcbd6a1c454e7b7f0bc58155558b9d",
+    "url": "/static/media/academicons.1afcbd6a.ttf"
   },
   {
     "revision": "ea3755c311d0678ca4f041912a9039d6",
     "url": "/static/media/academicons.ea3755c3.eot"
   },
   {
-    "revision": "1afcbd6a1c454e7b7f0bc58155558b9d",
-    "url": "/static/media/academicons.1afcbd6a.ttf"
+    "revision": "2552b354cabf01815628a244fde0636e",
+    "url": "/static/media/academicons.2552b354.woff"
+  },
+  {
+    "revision": "406b38d29cffe8ffcb7962faa2e095ef",
+    "url": "/static/media/academicons.406b38d2.svg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "9dbc830b2309e8da009483e12e6e991e",
+    "revision": "a0ff73e97bda917f121504b26fad1d11",
     "url": "/index.html"
   }
 ];
