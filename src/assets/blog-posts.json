@@ -1,6 +1,20 @@
 {
     "posts": [
 		{
+			"title": "What is a \"Task\" in Machine Learning?",
+			"ref": "WhatIsATask",
+			"tags": ["multi-task learning", "deep learning", "speculative"],
+			"post_date": "March 2022",
+			"hidden": true
+		},
+		{
+			"title": "A Tutorial on Gradient Noise in Deep Learning",
+			"ref": "GradientCovariance",
+			"tags": ["deep learning", "optimization"],
+			"post_date": "February 2022",
+			"hidden": true
+		},
+		{
 			"title": "Some Take-Aways from ICML 2022",
 			"ref": "ICML2022",
 			"tags": ["conference summary"],
@@ -19,20 +33,6 @@
 			"ref": "WhatIsATask",
 			"tags": ["personal"],
 			"post_date": "March 2022",
-			"hidden": true
-		},
-		{
-			"title": "What is a \"Task\" in Machine Learning?",
-			"ref": "WhatIsATask",
-			"tags": ["multi-task learning", "deep learning", "speculative"],
-			"post_date": "March 2022",
-			"hidden": true
-		},
-		{
-			"title": "A Tutorial on Gradient Noise in Deep Learning",
-			"ref": "GradientCovariance",
-			"tags": ["deep learning", "optimization"],
-			"post_date": "February 2022",
 			"hidden": true
 		},
 		{
