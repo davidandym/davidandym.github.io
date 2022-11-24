@@ -32,7 +32,7 @@ class IntroText extends Component {
     return (
       <div className="text-text">
         <p>Hi, welcome to my website!
-		I'm a fith year Computer Science PhD Candidate at Johns Hopkins University, 
+		I'm a Computer Science PhD Candidate at Johns Hopkins University, 
 		working at the <a href="clsp.jhu.ed" className="text-a">Center for Language and Speech Processing</a>.
 		My research is focused on machine learning, and in particular multi-task optimization in deep neural networks
 		and it's applications to natural language processing models.
