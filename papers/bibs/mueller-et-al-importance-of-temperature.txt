@@ -1,0 +1,8 @@
+@inproceedings{
+mueller2022the,
+title={The Importance of Temperature in Multi-Task Optimization},
+author={David Mueller and Mark Dredze and Nicholas Andrews},
+booktitle={OPT 2022: Optimization for Machine Learning (NeurIPS 2022 Workshop)},
+year={2022},
+url={https://openreview.net/forum?id=H9UOWMR_Ut}
+}
