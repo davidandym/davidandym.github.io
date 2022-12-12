@@ -1,17 +1,21 @@
 {
     "publications": [
 		{
+			"anthology_link": "https://openreview.net/forum?id=H9UOWMR_Ut",
 			"title": "The Importance of Temperature in Multi-Task Learning",
 			"authors": "David Mueller, Mark Dredze, and Nicholas Andrews",
 			"conference": "OPT Workshop @ NeurIPS 2022",
-			"code": "https://github.com/davidandym/Multi-Task-Optimization"
+			"code": "https://github.com/davidandym/Multi-Task-Optimization",
+			"bib": "/papers/bibs/mueller-et-al-importance-of-temperature.txt",
+			"pdf": "/papers/pdfs/mueller-et-al-importance-of-temperature.pdf"
 		},
 		{
 			"title": "Do Text-to-Text Learners Suffer from Task Conflict?",
 			"authors": "David Mueller, Nicholas Andrews, and Mark Dredze",
 			"conference": "Findings of EMNLP 2022",
 			"reviews": "/papers/reviews/mueller-et-al-do-text-to-text-learners.txt",
-			"code": "https://github.com/davidandym/task-conflict-in-text-to-text-learners"
+			"code": "https://github.com/davidandym/task-conflict-in-text-to-text-learners",
+			"pdf": "/papers/pdfs/mueller-et-al-do-text-to-text.pdf"
 		},
 		{
 			"title": "Ensemble Distillation for Structured Prediction",
