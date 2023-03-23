@@ -10,6 +10,7 @@
 			"pdf": "/papers/pdfs/mueller-et-al-importance-of-temperature.pdf"
 		},
 		{
+			"anthology_link": "https://aclanthology.org/2022.findings-emnlp.206",
 			"title": "Do Text-to-Text Learners Suffer from Task Conflict?",
 			"authors": "David Mueller, Nicholas Andrews, and Mark Dredze",
 			"conference": "Findings of EMNLP 2022",

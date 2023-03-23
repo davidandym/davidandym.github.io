@@ -44,7 +44,7 @@ class Pics extends Component {
                     href={value.src}
                     key={index}
                     onClick={(e) => this.open_lightbox(index,e)}>
-				<img className="pics-img" src={value.src}/>
+				<img className="pics-img" src={value.thumbnail}/>
                 </a>
             )
         });
