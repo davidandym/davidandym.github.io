@@ -39,12 +39,13 @@ class IntroText extends Component {
 		I like thinking about optimization landscapes, empirical phenomena in deep learning, and ways to connect theory and practice in modern neural networks.
         I am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>.</p>
         <p>
-		You can read more about my research interests over time <Link className="text-a" to="/blog-post/phdiary">here,</Link> and <b>you can find my publications <Link className="text-a" to="/publications">here.</Link></b> I
-    also occasionally write <Link className="text-a" to="/blog">blogs</Link> over various research topics or conferences.
-        </p>
-        <p>
           Prior to attending JHU, I completed my B.S. in Computer Science at the <a href="https://www.cs.utexas.edu/" className="text-a">University of Texas at Austin,</a> where I worked with <a href="https://www.cs.utexas.edu/~gdurrett/" className="text-a">Greg Durrett</a> on methods for <a href="https://www.aclweb.org/anthology/D18-1126/" className="text-a">entity linking</a> in noisy contexts.
         </p>
+        <p>
+		<b>You can find my publications <Link className="text-a" to="/publications">here,</Link></b> and you can read more about my research interests over time <Link className="text-a" to="/blog-post/phdiary">here.</Link> I
+    also occasionally write <Link className="text-a" to="/blog">blogs</Link> over various research topics or conferences.
+        </p>
+
       </div>
     )
   }
@@ -59,7 +60,7 @@ class News extends Component {
         </h3>
         <ul className="list">
 		 {/* <li> 07/22 - I just released a blog post on my experience at ICML 2022 - <Link className="text-a" to="/blog-post/ICML2022">check it out!</Link></li> */}
-		  <li> 2/23 - I'm looking for machine learning research internships (applied or theoretical) for Spring of 2023. Please reach out if you think I'd be a good fit!</li>
+		  <li> 2/23 - I'm looking for machine learning research internships (applied or theoretical) for Fall of 2023. Please reach out if you think I'd be a good fit!</li>
 		  <li> 2/23 - I'll be joining <a href="https://research.netflix.com/research-area/machine-learning" className="text-a">Netflix</a> as a research intern over the summer to work on machine learning for media creation and editing. This also means <b>I'll be in the Bay Area from June to August of 2023.</b></li>
 		  <li> 10/22 - I'll be attending NeurIPS and EMNLP this year to present some of my recent work! Let me know if you'd like to meet up!</li>
 		  <li> 08/21 - I recently moved to New York City - if you're around Manhattan and want to grab a coffee sometime, email me!</li>
