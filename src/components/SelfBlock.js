@@ -25,7 +25,6 @@ class SelfBlock extends Component {
           <News/>
           <hr className="divider"/>
           <Misc/>
-          <hr className="divider"/>
       </div>
     )
   }

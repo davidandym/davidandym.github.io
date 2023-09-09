@@ -22,7 +22,6 @@ class BlogLanding extends Component {
             <div className="pub-outer">
 			<h2>Blog Posts</h2>
               {li}
-        	<hr className="divider"/>
             </div>
         )
     }
