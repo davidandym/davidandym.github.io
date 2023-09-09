@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -24,138 +24,128 @@
     justify-content: center;
     padding: 10px;
     align-items: center;
-}
-
-.divider {
-    background-color: #C96567;
-    border: 3px;
-    height: 1px;
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 .face-img {
-	float: right;
     border-radius: 5%;
-    max-width:200px;
-    border:1.0px solid #C96567;
+    max-width:60%;
+    border:2px solid var(--accent-color);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.notice{
+    text-align: center;
+}
+
+.IntroSection {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	display: flex;
+    flex-grow: 2;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.IntroText {
+    width: 70%;
 }
 
 .face {
-	flex-direction: row;
-	justify-content: center;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
 	display: flex;
     flex-grow: 1;
     margin-top: 15px;
+    width: 50%;
 }
 
-.biobox {
-	float: left;
+.faceImg {
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
 }
 
-.face-split-img {
-	padding: 10px;
-	margin: auto;
-	width: 40%;
+.faceLinks {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
 }
-
-.face-split-bio {
-	padding: 10px;
-	margin: auto;
-	width: 60%;
-	height: 20%;
-}
-
 
 .Self-Block{
-	font-size: 20px;
-}
-
-.biohead1 {
-	margin: 5px;
-	font-size: 30px;
-}
-
-.biohead2{
-	margin: 5px;
-	font-size: 25px;
-}
-
-.biotext {
-	margin: 5px;
-	font-size: 20px;
-}
-
-.biotext1 {
-	margin: 5px;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .text-a:link {
-    color: #C96567;
-  	text-decoration: none;
+    color: var(--main-link-color);
+    text-decoration: none;
 }
 
-.ai {
-  color: #C96567;
-  text-align: center;
-  text-decoration: none;
+/* selected link */
+.text-a:active {
+    color: black;
+    text-decoration: none;
+}
+  
+/* visited link */
+.text-a:visited {
+    color: var(--main-link-color);
+    text-decoration: none;
 }
 
-.ai:visited {
-  	text-align: center;
-  	text-decoration: none;
-    color: #C96567;
-}
-
-.ai:hover {
-    color: rgb(252, 238, 238);
-}
-
-.ai:active {
-  color: black;
+/* mouse over link */
+.text-a:hover {
+    color: var(--main-link-hover-color);
+    text-decoration: underline;
 }
 
 .fa {
-  color: #C96567;
-  text-align: center;
-  text-decoration: none;
+    color: var(--main-link-color);
+    text-align: center;
+    text-decoration: none;
 }
 
 .fa:visited {
-  	text-align: center;
-  	text-decoration: none;
-    color: #C96567;
-}
-
-.fa:hover {
-    color: rgb(252, 238, 238);
+    text-align: center;
+    text-decoration: none;
+    color: var(--main-link-color);
 }
 
 .fa:active {
-  color: black;
+    color: black;
 }
 
+.fa:hover {
+    color: var(--main-link-hover-color);
+}
 
-/* visited link */
-.text-a:visited {
-    color: #C96567;
-  	text-decoration: none;
+.ai {
+    color: var(--main-link-color);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.ai:visited {
+    text-align: center;
+    text-decoration: none;
+    color: var(--main-link-color);
+}
+
+.ai:active {
+    color: black;
+}
+
+.ai:hover {
+    color: var(--main-link-hover-color)
 }
 
 li {
 	padding: 6px;
-}
-  
-/* mouse over link */
-.text-a:hover {
-    color: rgb(252, 238, 238);
-  	text-decoration: none;
-}
-  
-/* selected link */
-.text-a:active {
-  color: black;
-  	text-decoration: none;
 }
 
 @media all and (max-width: 700px) {
@@ -169,31 +159,25 @@ li {
 		font-size: 3vw;
     }
 
-	.biohead1 {
-		font-size: 5vw;
-	}
-	.biohead2{
-		font-size: 3vw;
-	}
-	.biotext {
-		font-size: 3vw;
-	}
-	.biotext1 {
-		font-size: 3vw;
-	}
-
-
-    .face-text{
-        max-width: 100%;
+    .IntroSection{
+        flex-wrap: wrap;
     }
 
-	.face-split-bio {
-		justify-content: left;
-	}
+    .IntroText{
+        width: 100%;
+    }
 
+    .face{
+        width: 100%;
+    }
 
     .face-img{
-        max-width: 100%;
+        max-width: 40%;
+        margin-left: 30%;
+    }
+
+    .faceLinks{
+        font-size: 30px;
     }
 }
 

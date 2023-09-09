@@ -2,8 +2,8 @@
     left: 0;
     bottom: 0;
     padding: 10px;
-    background-color: #97AABD;
-    color: #314455;
+    background-color: var(--accent-two-color);
+    color: var(--background-color);
     text-align: center;
     display: flex;
     flex-direction: row;

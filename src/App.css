@@ -1,6 +1,51 @@
+:root {
+  --background-color: #EFEFEF;
+  --main-text-color: #4e4e4c;
+  --header-color: #112B3C;
+  --accent-color: #205375;
+  --accent-two-color: #205375;
+  --main-link-color: #F66B0E;
+  --main-link-hover-color: #205375;
+  --alt-link-color: #4e4e4c;
+  --alt-link-hover-color: #e98074;
+  --header-link-color: #F66B0E;
+  --header-link-hover-color: #D8C385;
+  --pub-link-color: #d55601;
+  --pub-link-hover-color: #205375;
+}
+
+/* :root {
+  --background-color: #EAE7DC;
+  --main-text-color: #4e4e4c;
+  --header-color: #4c4c4e;
+  --accent-color: #e98074;
+  --accent-two-color: #8E8D8A;
+  --main-link-color: #e85a4f;
+  --main-link-hover-color: #D8C385;
+  --alt-link-color: #4e4e4c;
+  --alt-link-hover-color: #e98074;
+  --header-link-color: #e98074;
+  --header-link-hover-color: #D8C385;
+  --pub-link-color: #bb564b;
+  --pub-link-hover-color: #D8C385;
+} */
+
+/* :root {
+  --background-color: #314455;
+  --header-color: #C96567;
+  --accent-color: #C96567;
+  --main-link-color: #C96567;
+  --accent-two-color: #dececfbd;
+  --main-text-color: rgb(252, 238, 238);
+  --main-link-hover-color: rgb(252, 238, 238);
+  --alt-link-color: rgb(252, 238, 238);
+  --header-link-color: #314455;
+  --header-link-hover-color: rgb(252, 238, 238);
+} */
+
 .App {
   text-align: center;
-  background-color: #314455;
+  background-color: var(--background-color);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -8,6 +53,7 @@
   min-height: 90vh;
   padding: 10px;
   margin: 5px;
-  background-color: #314455;
-  color: rgb(252, 238, 238);
+  background-color: var(--background-color);
+  color: var(--main-text-color);
 }
+
