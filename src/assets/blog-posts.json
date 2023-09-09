@@ -5,7 +5,7 @@
 			"ref": "MTL",
 			"tags": ["multi-task learning", "deep learning", "speculative"],
 			"post_date": "June 2023",
-			"hidden": false
+			"hidden": true
 		},
 		{
 			"title": "What is a \"Task\" in Machine Learning?",
