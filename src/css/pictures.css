@@ -8,9 +8,9 @@
 }
 
 .divider {
-    background-color: #C96567;
+    background-color: var(--accent-color);
     border: 3px;
-    height: 1px;
+    height: 2px;
     width: 100%;
 }
 

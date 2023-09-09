@@ -12,9 +12,6 @@ class Header extends Component {
             </div>
             <div className="header-links">
                 <div className="header-link">
-                    <a className="head-a" href="/papers/cv.pdf">CV</a>
-                </div>
-                <div className="header-link">
                     <Link className="head-a" to="/publications">Papers</Link>
                 </div>
                 <div className="header-link">
@@ -22,14 +19,6 @@ class Header extends Component {
                 </div>
                 <div className="header-link">
                     <Link className="head-a" to="/pictures">Photos</Link>
-                </div>
-                <div className="header-link">
-                    <a className="fa fa-twitter fa-head" href="https://twitter.com/dam_nlp">
-                    </a>
-                </div>
-                <div className="header-link">
-                    <a className="fa fa-github fa-head" href="https://github.com/davidandym">
-                    </a>
                 </div>
 
             </div>
