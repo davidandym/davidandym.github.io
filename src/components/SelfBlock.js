@@ -48,7 +48,7 @@ class IntroText extends Component {
             </div>
 
             <div className='IntroText'>
-              <h3 className='match-img-text'>Welcome</h3>
+              {/* <h3 className='match-img-text'>Welcome</h3> */}
             <p >I'm a Computer Science PhD Candidate (ABD) at Johns Hopkins University.
               I work on Machine Learning theory and applications, and am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>.</p>
             <p>
@@ -89,7 +89,7 @@ class Research extends Component {
           My Research
         </h3>
         <p>
-          Mr research focuses on developing effective ways to train multi-task and multi-lingual models,
+          My research focuses on developing effective ways to train multi-task and multi-lingual models,
           exploring connections between optimization and generalization in deep learning,
           and uncovering properties of models that leverage transfer learning.
         </p>
