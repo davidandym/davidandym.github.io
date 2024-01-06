@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4a13fc18032f434bcf02",
+    "revision": "713179a6eda31b37aa47",
     "url": "/static/css/main.60c3021a.chunk.css"
   },
   {
-    "revision": "4a13fc18032f434bcf02",
-    "url": "/static/js/main.4a13fc18.chunk.js"
+    "revision": "713179a6eda31b37aa47",
+    "url": "/static/js/main.713179a6.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -60,10 +60,6 @@ self.__precacheManifest = [
     "url": "/static/media/phdiary.644e8087.ipynb"
   },
   {
-    "revision": "406b38d29cffe8ffcb7962faa2e095ef",
-    "url": "/static/media/academicons.406b38d2.svg"
-  },
-  {
     "revision": "2552b354cabf01815628a244fde0636e",
     "url": "/static/media/academicons.2552b354.woff"
   },
@@ -76,6 +72,10 @@ self.__precacheManifest = [
     "url": "/static/media/academicons.1afcbd6a.ttf"
   },
   {
+    "revision": "406b38d29cffe8ffcb7962faa2e095ef",
+    "url": "/static/media/academicons.406b38d2.svg"
+  },
+  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
@@ -84,19 +84,19 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/static/media/fontawesome-webfont.fee66e71.woff"
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "37c23d7abf5e9f3b07cccca5f5839b1f",
+    "revision": "f4c84dc024eaff2cac444fe76797ee8d",
     "url": "/index.html"
   }
 ];
