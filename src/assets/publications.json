@@ -5,8 +5,7 @@
 			"arxiv": "https://arxiv.org/abs/2403.04510",
 			"title": "Where Does In-Context Learning Happen in Large Language Models?",
 			"authors": "Suzanna Sia, David Mueller, and Kevin Duh",
-			"conference": "Pre-print",
-			"pdf": "/papers/pdfs/mueller-et-al-do-text-to-text.pdf"
+			"conference": "Pre-print"
 		},
 		{
 			"title": "Multi-Task Transfer Matters During Instruction-Tuning",

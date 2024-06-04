@@ -41,8 +41,7 @@ class Publications extends Component {
 			Work that is currently pending review.
         	<hr className="divider"/>
 			*/}
-			<h2>Conference Publications</h2>
-			Peer-Reviewed Work.
+			<h2>My Publications</h2>
               {li}
 			{/*<hr className="divider"/>
 			<h2>Snippets</h2>
