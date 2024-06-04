@@ -1,6 +1,6 @@
   
 .Notebook {
-    font-size: 12pt;
+    font-size: 16pt;
 	max-width: 100%;
     background: rgb(250, 250, 245) !important;
 	padding-top: 10px;
@@ -71,4 +71,12 @@
 .Notebook th {
   background: rgb(230, 230, 230) !important;
   border-color: white;
+}
+
+
+@media all and (max-width: 900px) {
+
+    .Notebook {
+        font-size: 3.8vw;
+    }
 }

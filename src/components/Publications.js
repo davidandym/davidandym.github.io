@@ -49,10 +49,6 @@ class Publications extends Component {
 			Small, unpublished works aimed at intuition building, rather than
 			novel research.*/}
         	<hr className="divider"/>
-			<h2>Notes</h2>
-			Sets of notes that I take as I work through various fundamental
-			textbooks or classes.
-              {li2}
             </div>
         )
     }

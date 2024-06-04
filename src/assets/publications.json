@@ -1,6 +1,20 @@
 {
     "publications": [
 		{
+			"anthology_link": "https://arxiv.org/abs/2403.04510",
+			"arxiv": "https://arxiv.org/abs/2403.04510",
+			"title": "Where Does In-Context Learning Happen in Large Language Models?",
+			"authors": "Suzanna Sia, David Mueller, and Kevin Duh",
+			"conference": "Pre-print",
+			"pdf": "/papers/pdfs/mueller-et-al-do-text-to-text.pdf"
+		},
+		{
+			"title": "Multi-Task Transfer Matters During Instruction-Tuning",
+			"authors": "David Mueller, Mark Dredze, and Nicholas Andrews",
+			"conference": "Findings of ACL 2024",
+			"code": "https://github.com/davidandym/Multitask-Transfer-Instruction-Tuning"
+		},
+		{
 			"anthology_link": "https://openreview.net/forum?id=H9UOWMR_Ut",
 			"title": "The Importance of Temperature in Multi-Task Learning",
 			"authors": "David Mueller, Mark Dredze, and Nicholas Andrews",

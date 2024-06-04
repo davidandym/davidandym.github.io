@@ -1,0 +1,53 @@
+.ResearchProject {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	display: flex;
+    flex-grow: 2;
+    width: 100%;
+}
+
+.ProjectText {
+    width: 70%;
+}
+
+.project-img-div {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.project-img {
+    border-radius: 5%;
+    max-width:95%;
+    border:0px solid var(--accent-color);
+}
+
+.research-project-divider {
+    background-color: var(--header-link-hover-color);
+    border: 10px;
+    height: 1px;
+    width: 95%;
+}
+
+@media all and (max-width: 900px) {
+
+    .ResearchProject{
+        flex-wrap: wrap;
+    }
+
+    .ProjectText{
+        width: 100%;
+    }
+
+    .project-img-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-img{
+        max-width: 100%;
+    }
+
+}

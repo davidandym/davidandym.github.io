@@ -1,0 +1,25 @@
+{
+    "projects": [
+		{
+			"name": "(Ongoing Work) Leveraging Multi-Task Signals to find Diverse Solutions",
+			"summary": "In this ongoing work, we show that multi-task signals can be leveraged to increase the diversity of the solutions found by SGD, but that certain methods are necessary to fully take advantage of these additional signals. Doing so allows us to “cast a wide net” during training, combating the negative effects of the simplicity bias of SGD and mitigating underspecification.",
+			"img": "https://live.staticflickr.com/65535/53767131009_4de27578ff_n.jpg"
+		},
+		{
+			"name": "Where Does Multi-Task Transfer Come From?",
+			"summary": "We study when and why multi-task models experience negative and positive transfer. We show that transfer is observed very early into training, potentially explaining the lack of success of multi-task optimization methods. Additionally, we find that no optimization artifacts previously tied to generalization (such as loss surface sharpness) explain transfer, suggesting a general inability of training trajectories to explain multi-task transfer.",
+			"img": "https://live.staticflickr.com/65535/53765867717_92919f568d_n.jpg"
+
+		},
+		{
+			"name": "On Multi-Task Transfer in Instruction-Tuning",
+			"summary": "We show that instruction-tuning large language models can impact transfer to unseen tasks via few-shot fine-tuning and, moreover, that a model’s performance on unseen tasks via in-context learning is correlated with a model’s ability to transfer to that task via parameter fine-tuning. Additionally, we show that impacting a model’s parameter transfer (by e.g. better multi-task training) can also improve a model’s in-context learning performance. ",
+			"img": "https://live.staticflickr.com/65535/53766753416_be2631fb37_n.jpg"
+		},
+		{
+			"name": "Do Text-to-Text Learners Suffer From Task Conflict?",
+			"summary": "We study the question of whether or not the relationship between tasks changes when we go from using a shared encoder with task-specific heads to a fully shared text-to-text model. We observe that both transfer and task conflict remain the same in both models, showing that the increasingly popular move towards modeling all tasks as text-to-text tasks cannot (alone) mitigate negative effects of multi-task training, such as negative transfer.",
+			"img": "https://live.staticflickr.com/65535/53765881382_746b84eac4_n.jpg"
+		}
+    ]
+}
