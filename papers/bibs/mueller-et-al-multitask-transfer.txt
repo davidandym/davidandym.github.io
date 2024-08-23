@@ -1,0 +1,17 @@
+@inproceedings{mueller-etal-2024-multi,
+    title = "Multi-Task Transfer Matters During Instruction-Tuning",
+    author = "Mueller, David  and
+      Dredze, Mark  and
+      Andrews, Nicholas",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.883",
+    pages = "14880--14891",
+    abstract = "Instruction-tuning trains a language model on hundreds of tasks jointly to improve a model{'}s ability to learn in-context;however, the mechanisms that drive in-context learning are poorly understood and, as a result, the role of instruction-tuning on in-context generalization is poorly understood as well.In this work, we study the impact of instruction-tuning on multi-task transfer: how well a model{'}s parameters adapt to an unseen task via fine-tuning.We find that instruction-tuning negatively impacts a model{'}s transfer to unseen tasks, and that model transfer and in-context generalization are highly correlated, suggesting that this catastrophic forgetting may impact in-context learning.We study methods to improve model transfer, finding that multi-task training{---}how well the training tasks are optimized{---}can significantly impact ICL generalization; additionally, we find that continual training on unsupervised pre-training data can mitigate forgetting and improve ICL generalization as well.Finally, we demonstrate that, early into training, the impact of instruction-tuning on model transfer to tasks impacts in-context generalization on that task.Overall, we provide significant evidence that multi-task transfer is deeply connected to a model{'}s ability to learn a task in-context.",
+}
