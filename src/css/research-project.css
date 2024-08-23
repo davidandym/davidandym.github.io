@@ -1,32 +1,72 @@
 .ResearchProject {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 	display: flex;
-    flex-grow: 2;
+    flex-grow: 1;
     width: 100%;
 }
 
 .ProjectText {
-    width: 70%;
+    text-align: left;
+    width: 90%;
+}
+
+.ProjectTitle {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .project-img-div {
     justify-content: center;
     align-items: center;
-    width: 30%;
 }
 
 .project-img {
     border-radius: 5%;
     max-width:95%;
-    border:0px solid var(--accent-color);
+    border:1.75px solid var(--accent-color);
+    align-items: center;
+}
+
+.proj-a {
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.proj-links {
+    font-size:  20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.proj-a:link {
+    color: var(--pub-link-color);
+    text-decoration: none;
+  }
+  
+/* visited link */
+.proj-a:visited {
+    color: var(--pub-link-color);
+}
+  
+/* mouse over link */
+.proj-a:hover {
+    color: var(--pub-link-hover-color);
+    text-decoration: underline;
+}
+  
+/* selected link */
+.proj-a:active {
+  color: black;
 }
 
 .research-project-divider {
     background-color: var(--header-link-hover-color);
     border: 10px;
-    height: 1px;
+    height: 2.5px;
     width: 95%;
 }
 

@@ -8,18 +8,26 @@
 		{
 			"name": "Where Does Multi-Task Transfer Come From?",
 			"summary": "We study when and why multi-task models experience negative and positive transfer. We show that transfer is observed very early into training, potentially explaining the lack of success of multi-task optimization methods. Additionally, we find that no optimization artifacts previously tied to generalization (such as loss surface sharpness) explain transfer, suggesting a general inability of training trajectories to explain multi-task transfer.",
-			"img": "https://live.staticflickr.com/65535/53765867717_92919f568d_n.jpg"
+			"img": "https://live.staticflickr.com/65535/53765867717_92919f568d_n.jpg",
+			"code": "https://github.com/davidandym/Multi-Task-Optimization",
+			"pdf": "/papers/pdfs/preprint-conflict-biases.pdf"
 
 		},
 		{
 			"name": "On Multi-Task Transfer in Instruction-Tuning",
 			"summary": "We show that instruction-tuning large language models can impact transfer to unseen tasks via few-shot fine-tuning and, moreover, that a model’s performance on unseen tasks via in-context learning is correlated with a model’s ability to transfer to that task via parameter fine-tuning. Additionally, we show that impacting a model’s parameter transfer (by e.g. better multi-task training) can also improve a model’s in-context learning performance. ",
-			"img": "https://live.staticflickr.com/65535/53766753416_be2631fb37_n.jpg"
+			"img": "https://live.staticflickr.com/65535/53766753416_be2631fb37_n.jpg",
+			"pdf": "https://aclanthology.org/2024.findings-acl.883.pdf",
+			"code": "https://github.com/davidandym/Multitask-Transfer-Instruction-Tuning",
+			"poster": "/papers/posters/acl24-poster.pdf"
 		},
 		{
 			"name": "Do Text-to-Text Learners Suffer From Task Conflict?",
 			"summary": "We study the question of whether or not the relationship between tasks changes when we go from using a shared encoder with task-specific heads to a fully shared text-to-text model. We observe that both transfer and task conflict remain the same in both models, showing that the increasingly popular move towards modeling all tasks as text-to-text tasks cannot (alone) mitigate negative effects of multi-task training, such as negative transfer.",
-			"img": "https://live.staticflickr.com/65535/53765881382_746b84eac4_n.jpg"
+			"img": "https://live.staticflickr.com/65535/53765881382_746b84eac4_n.jpg",
+			"code": "https://github.com/davidandym/task-conflict-in-text-to-text-learners",
+			"pdf": "https://aclanthology.org/2022.findings-emnlp.206.pdf",
+			"slides": "/papers/posters/emnlp22-slides.pdf"
 		}
     ]
 }

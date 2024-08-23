@@ -99,6 +99,10 @@ class Research extends Component {
             name={value.name}
             summary={value.summary}
             imgsrc={value.img}
+            code={value.code}
+            pdf={value.pdf}
+            slides={value.slides}
+            poster={value.poster}
           />
         </div>
         )
@@ -110,6 +114,10 @@ class Research extends Component {
             name={value.name}
             summary={value.summary}
             imgsrc={value.img}
+            code={value.code}
+            pdf={value.pdf}
+            slides={value.slides}
+            poster={value.poster}
           />
         </div>
       )
@@ -145,18 +153,32 @@ class ResearchProject extends Component {
       <div>
 
       <div className='ResearchProject'>
+          <h4 className='ProjectTitle'>{this.props.name}</h4>
+          <div className="proj-links">
+            <PubLink link={this.props.pdf} name={"Paper"}/>
+            <PubLink link={this.props.code} name={"Code"}/>
+            <PubLink link={this.props.poster} name={"Poster"}/>
+            <PubLink link={this.props.slides} name={"Slides"}/>
+          </div>
           <div className='project-img-div'>
               <Image src={this.props.imgsrc} className="project-img" roundedCircle={false} />
           </div>
-
-          <div className='ProjectText'>
-          <h4>{this.props.name}</h4>
-          <p >{this.props.summary}</p>
+          <p className='ProjectText'>{this.props.summary}</p>
         </div>
-      </div>
       </div>
     )
   }
+}
+
+class PubLink extends Component {
+	render() {
+		if (this.props.link == null) {
+			return <a/>
+		}
+		return (
+        	<a className="proj-a" href={this.props.link}>{this.props.name}</a>
+		)
+	}
 }
 
 class Misc extends Component {

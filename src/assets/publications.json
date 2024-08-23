@@ -11,7 +11,10 @@
 			"title": "Multi-Task Transfer Matters During Instruction-Tuning",
 			"authors": "David Mueller, Mark Dredze, and Nicholas Andrews",
 			"conference": "Findings of ACL 2024",
-			"code": "https://github.com/davidandym/Multitask-Transfer-Instruction-Tuning"
+			"code": "https://github.com/davidandym/Multitask-Transfer-Instruction-Tuning",
+			"anthology_link": "https://aclanthology.org/2024.findings-acl.883/",
+			"pdf": "https://aclanthology.org/2024.findings-acl.883.pdf",
+			"bib": "/papers/bibs/mueller-et-al-multitask-transfer.txt"
 		},
 		{
 			"anthology_link": "https://openreview.net/forum?id=H9UOWMR_Ut",
