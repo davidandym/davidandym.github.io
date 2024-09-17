@@ -1,6 +1,15 @@
 {
     "publications": [
 		{
+			"anthology_link": "https://arxiv.org/pdf/2408.14677",
+			"arxiv": "https://arxiv.org/abs/2408.14677",
+			"title": "Can Optimization Trajectories Explain Multi-Task Learning?",
+			"authors": "David Mueller, Mark Dredze, and Nicholas Andrews",
+			"conference": "Pre-print",
+			"bib": "/papers/bibs/mueller-et-al-optimization-trajectories.txt",
+			"code": "https://github.com/davidandym/Multi-Task-Optimization"
+		},
+		{
 			"anthology_link": "https://arxiv.org/abs/2403.04510",
 			"arxiv": "https://arxiv.org/abs/2403.04510",
 			"title": "Where Does In-Context Learning Happen in Large Language Models?",
