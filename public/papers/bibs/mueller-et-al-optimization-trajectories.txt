@@ -1,9 +1,10 @@
-@misc{mueller2024optimizationtrajectoriesexplainmultitask,
-      title={Can Optimization Trajectories Explain Multi-Task Transfer?}, 
-      author={David Mueller and Mark Dredze and Nicholas Andrews},
-      year={2024},
-      eprint={2408.14677},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2408.14677}, 
+@article{
+mueller2025can,
+title={Can Optimization Trajectories Explain Multi-Task Transfer?},
+author={David Mueller and Mark Dredze and Nicholas Andrews},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=QQE5j2OsLW},
+note={}
 }

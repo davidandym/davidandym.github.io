@@ -23,9 +23,9 @@ class SelfBlock extends Component {
 
           <IntroText/>
           <hr className="divider"/>
-          <Research/>
-          <hr className="divider"/>
           <News/>
+          <hr className="divider"/>
+          <Research/>
           <hr className="divider"/>
           <Misc/>
       </div>
@@ -46,21 +46,25 @@ class IntroText extends Component {
                 <a href="/papers/cv.pdf" className="fa">CV</a>  &nbsp;
                 <a href="https://scholar.google.com/citations?user=TMv0Lw8AAAAJ&hl=en" className="ai ai-google-scholar"></a> &nbsp;
                 <a href="https://github.com/davidandym" className="fa fa-github"></a> &nbsp;
-                <a href="https://twitter.com/dam_nlp" className="fa fa-twitter"></a>  
+                {/* <a href="https://twitter.com/dam_nlp" className="fa fa-twitter"></a>  */}
               </div>
             </div>
 
             <div className='IntroText'>
               {/* <h3 className='match-img-text'>Welcome</h3> */}
-            <p >I'm a Computer Science PhD Candidate (ABD) at Johns Hopkins University.
-              I work on Machine Learning theory and applications, and am advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>.</p>
+            <p >
+              I'm an <b>Applied Scientist at Amazon</b>.
+              I work on <b>improving LLM reasoning</b> during pre-training on the Scientific Foundations AI (SFAI) team.</p>
+            <p>
+              I did my PhD in Computer Science at Johns Hopkins University, where I worked on on <b>transfer learning theory and applications</b>, advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>.
+            </p>
             <p>
               <b>You can find my publications <Link className="text-a" to="/publications">here,</Link></b> and you can read more about my research interests over time <Link className="text-a" to="/blog-post/phdiary">here.</Link> I
                 also occasionally write <Link className="text-a" to="/blog">blogs</Link> over various research topics or conferences.
             </p>
-            <p>
+            {/* <p>
               <b><u>I am currently on the job market, looking for post-doc and industry positions!</u></b>
-            </p>
+            </p> */}
             </div>
       </div>
       {/* <p className="notice"><b>I am on the job market!!</b></p> */}
@@ -78,10 +82,10 @@ class News extends Component {
         </h3>
         <ul className="list">
 		 {/* <li> 07/22 - I just released a blog post on my experience at ICML 2022 - <Link className="text-a" to="/blog-post/ICML2022">check it out!</Link></li> */}
-     <li> May, 24 - I'm starting to wrap up my PhD and am <b> currently looking for industry or post-doc positions!</b> Please reach out if you have an opportunity that I would be a good fit for!</li>
-		  <li> Aug, 23 - I'm back in NYC after my internship! If you are interested in chatting and happen to be in Manhattan, please feel free to contact me!</li>
-		  <li> June, 23 - I'll be joining <a href="https://research.netflix.com/research-area/machine-learning" className="text-a">Netflix</a> as a research intern over the summer to work on machine learning for media creation and editing. This also means <b>I'll be in the Bay Area from June to August of 2023.</b></li>
-		  <li> Oct, 22 - I'll be attending NeurIPS and EMNLP this year to present some of my recent work! Let me know if you'd like to meet up!</li>
+     <li>Mar, 25 - <a href="https://sophia-hager.github.io/" className="text-a">Sophia's</a> paper on distillating calibrated confidences into LLMs (which I'm an author on) was just released as a <a href="https://arxiv.org/abs/2503.14749" className="text-a">pre-print!</a></li>
+     <li> Dec, 24 - Our paper on exploring how optimization and generalization are connected in transfer learning was just <b>accepted at TMLR!</b></li>
+     <li> Dec, 24 - <b>I have accepted a position as an Applied Scientist at <a href="https://www.amazon.science/" className="text-a">Amazon</a></b> on the Scientific Foundations team beginning January of 2025.</li>
+     <li>Oct, 24 - Our paper on understanding where in-context learning happens in LLMs, led by <a href="https://suzyahyah.github.io/about/" className="text-a">Suzanna</a>, was <b>accepted at NeurIPS 2024!</b></li>
       </ul>
       </div>
     )
@@ -190,7 +194,7 @@ class Misc extends Component {
         <p> In 2018 I moved to Baltimore to start my PhD at Johns Hopkins and stayed there for 3 years. Since 2021 I have lived in NYC while I complete my PhD semi-remotely.</p>
         <p>Outside of research I have a few hobbies, including:</p>
         <ul className="list">
-          <li>Training Brazilian Jiu-Jitsu, since about 2013.</li>
+          <li>Training Brazilian Jiu-Jitsu, since about 2014. I currently train at <a href="https://marcelogarciajj.com/nyc/" className="text-a">Marcelo Garcia Jiu-Jitsu</a>.</li>
           <li>Making and drinking fun and weird cocktails.</li>
           <li>Trying to improve my latte art. View my progress <a href="https://photos.app.goo.gl/YHK7SrMobdsbG4k66" className="text-a">here</a>.</li>
           <li>Reading, mostly fantasy and science-fiction. See my <a href="http://www.goodreads.com/damueller" className="text-a">goodreads</a>.</li>

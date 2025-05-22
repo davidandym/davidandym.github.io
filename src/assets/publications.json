@@ -1,20 +1,30 @@
 {
     "publications": [
 		{
-			"anthology_link": "https://arxiv.org/pdf/2408.14677",
+			"anthology_link": "https://arxiv.org/abs/2503.14749",
+			"arxiv": "https://arxiv.org/abs/2503.14749",
+			"title": "Uncertainty Distillation: Teaching Language Models to Express Semantic Confidence",
+			"authors": "Sophia Hager, David Mueller, Kevin Duh, Nicholas Andrews",
+			"conference": "Pre-print",
+			"bib": "/papers/bibs/hager-et-al-uncertainty-distillation.txt"
+		},
+		{
+			"anthology_link": "https://openreview.net/forum?id=QQE5j2OsLW",
 			"arxiv": "https://arxiv.org/abs/2408.14677",
 			"title": "Can Optimization Trajectories Explain Multi-Task Learning?",
 			"authors": "David Mueller, Mark Dredze, and Nicholas Andrews",
-			"conference": "Pre-print",
+			"conference": "Transactions on Machine Learning Research (TMLR)",
 			"bib": "/papers/bibs/mueller-et-al-optimization-trajectories.txt",
 			"code": "https://github.com/davidandym/Multi-Task-Optimization"
 		},
 		{
-			"anthology_link": "https://arxiv.org/abs/2403.04510",
+			"anthology_link": "https://openreview.net/forum?id=LLuSjg59an",
 			"arxiv": "https://arxiv.org/abs/2403.04510",
 			"title": "Where Does In-Context Learning Happen in Large Language Models?",
 			"authors": "Suzanna Sia, David Mueller, and Kevin Duh",
-			"conference": "Pre-print"
+			"conference": "NeurIPS 2024",
+			"reviews": "https://openreview.net/forum?id=LLuSjg59an",
+			"bib": "/papers/bibgs/sia-et-al-where-does.txt"
 		},
 		{
 			"title": "Multi-Task Transfer Matters During Instruction-Tuning",
