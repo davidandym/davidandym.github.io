@@ -46,6 +46,7 @@ class IntroText extends Component {
                 <a href="/papers/cv.pdf" className="fa">CV</a>  &nbsp;
                 <a href="https://scholar.google.com/citations?user=TMv0Lw8AAAAJ&hl=en" className="ai ai-google-scholar"></a> &nbsp;
                 <a href="https://github.com/davidandym" className="fa fa-github"></a> &nbsp;
+                <a href="https://www.linkedin.com/in/davidandym/" className="fa fa-linkedin"></a>
                 {/* <a href="https://twitter.com/dam_nlp" className="fa fa-twitter"></a>  */}
               </div>
             </div>
