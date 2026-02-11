@@ -24,8 +24,8 @@ class SelfBlock extends Component {
           <IntroText/>
           <hr className="divider"/>
           <News/>
-          <hr className="divider"/>
-          <Research/>
+          {/* <hr className="divider"/>
+          <Research/> */}
           <hr className="divider"/>
           <Misc/>
       </div>
@@ -54,8 +54,8 @@ class IntroText extends Component {
             <div className='IntroText'>
               {/* <h3 className='match-img-text'>Welcome</h3> */}
             <p >
-              I'm an <b>Applied Scientist at Amazon</b>.
-              I work on <b>improving LLM reasoning</b> during pre-training on the Scientific Foundations AI (SFAI) team.</p>
+              I'm an <b>Applied Scientist (II) at Amazon</b>.
+              I'm a member of the Stores Foundational AI team (SFAI), where I currently work on LLM post-training for the Amazon Rufus chat-bot.</p>
             <p>
               I did my PhD in Computer Science at Johns Hopkins University, where I worked on on <b>transfer learning theory and applications</b>, advised by <a href="http://www.cs.jhu.edu/~mdredze/" className="text-a">Mark Dredze</a> and <a href="https://cs.jhu.edu/~noa/" className="text-a">Nicholas Andrews</a>.
             </p>
