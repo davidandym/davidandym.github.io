@@ -1,0 +1,9 @@
+@misc{hager2025uncertaintydistillationteachinglanguage,
+      title={Uncertainty Distillation: Teaching Language Models to Express Semantic Confidence}, 
+      author={Sophia Hager and David Mueller and Kevin Duh and Nicholas Andrews},
+      year={2025},
+      eprint={2503.14749},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.14749}, 
+}
